@@ -14,9 +14,9 @@ The Toyota 4Runner has gone through six main generations, each building upon its
 
 - **Fourth Generation (2003-2009)**: Introduced more sophisticated technology and comfort features, including an optional V8 engine. The addition of advanced off-road systems like Downhill Assist Control (DAC) and Hill-start Assist Control (HAC) enhanced its off-road capabilities.
 
-- **Fifth Generation (2010-2023)**: Focused on maintaining traditional body-on-frame construction while adding modern safety and technology features. Notable for its Multi-Terrain Select system, Crawl Control, and Kinetic Dynamic Suspension System (KDSS) on certain trims.
+- **Fifth Generation (2010-2024)**: Focused on maintaining traditional body-on-frame construction while adding modern safety and technology features. Notable for its Multi-Terrain Select system, Crawl Control, and Kinetic Dynamic Suspension System (KDSS) on certain trims.
 
-- **Sixth Generation (2024-present)**: The latest generation features a complete redesign with modernized styling, enhanced technology, and improved off-road capabilities while maintaining its body-on-frame construction. Includes Toyota Safety Sense 3.0 and an updated infotainment system with larger touchscreen options.
+- **Sixth Generation (2025-present)**: The latest generation features a complete redesign with modernized styling, enhanced technology, and improved off-road capabilities while maintaining its body-on-frame construction. Includes Toyota Safety Sense 3.0 and an updated infotainment system with larger touchscreen options.
 
 ## Contributing
 
