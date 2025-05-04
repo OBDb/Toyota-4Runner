@@ -1,0 +1,52 @@
+command_id: 7B0.7B8.2121
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7B803612100
+  expected_values:
+    TOYOTA_VSS: 0
+- response: 7B803612101
+  expected_values:
+    TOYOTA_VSS: 1.28
+- response: 7B803612102
+  expected_values:
+    TOYOTA_VSS: 2.56
+- response: 7B803612103
+  expected_values:
+    TOYOTA_VSS: 3.84
+- response: 7B80361210D
+  expected_values:
+    TOYOTA_VSS: 16.64
+- response: 7B803612110
+  expected_values:
+    TOYOTA_VSS: 20.48
+- response: 7B803612116
+  expected_values:
+    TOYOTA_VSS: 28.16
+- response: 7B80361211A
+  expected_values:
+    TOYOTA_VSS: 33.28
+- response: 7B80361211B
+  expected_values:
+    TOYOTA_VSS: 34.56
+- response: 7B80361211C
+  expected_values:
+    TOYOTA_VSS: 35.84
+- response: 7B80361211E
+  expected_values:
+    TOYOTA_VSS: 38.4
+- response: 7B803612123
+  expected_values:
+    TOYOTA_VSS: 44.8
+- response: 7B803612124
+  expected_values:
+    TOYOTA_VSS: 46.08
+- response: 7B80361212A
+  expected_values:
+    TOYOTA_VSS: 53.76
+- response: 7B80361212C
+  expected_values:
+    TOYOTA_VSS: 56.32
+- response: 7B803612132
+  expected_values:
+    TOYOTA_VSS: 64
