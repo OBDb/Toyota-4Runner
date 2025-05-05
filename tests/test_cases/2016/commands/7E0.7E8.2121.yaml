@@ -3,7 +3,8 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: '7E80761210000000000'
-  expected_values: {}
+  expected_values:
+    TOYOTA_CC_S: 0
 - response: '7E80761210000000080'
   expected_values:
     TOYOTA_CC_S: 0
@@ -35,6 +36,8 @@ test_cases:
   expected_values:
     TOYOTA_CC_S: 0
 - response: 7E80761212D00008000
-  expected_values: {}
+  expected_values:
+    TOYOTA_CC_S: 0
 - response: '7E80761213300008000'
-  expected_values: {}
+  expected_values:
+    TOYOTA_CC_S: 0

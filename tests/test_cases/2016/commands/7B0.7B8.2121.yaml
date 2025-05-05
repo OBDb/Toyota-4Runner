@@ -4,40 +4,40 @@ extended_addressing_enabled: false
 test_cases:
 - response: 7B803612100
   expected_values:
-    TOYOTA_VSS: 0
+    TOYOTA_VSS_V2: 0
 - response: 7B803612103
   expected_values:
-    TOYOTA_VSS: 3.84
+    TOYOTA_VSS_V2: 3.84
 - response: 7B803612104
   expected_values:
-    TOYOTA_VSS: 5.12
+    TOYOTA_VSS_V2: 5.12
 - response: 7B803612105
   expected_values:
-    TOYOTA_VSS: 6.4
+    TOYOTA_VSS_V2: 6.4
 - response: 7B80361210B
   expected_values:
-    TOYOTA_VSS: 14.08
+    TOYOTA_VSS_V2: 14.08
 - response: 7B80361210D
   expected_values:
-    TOYOTA_VSS: 16.64
+    TOYOTA_VSS_V2: 16.64
 - response: 7B803612110
   expected_values:
-    TOYOTA_VSS: 20.48
+    TOYOTA_VSS_V2: 20.48
 - response: 7B803612111
   expected_values:
-    TOYOTA_VSS: 21.76
+    TOYOTA_VSS_V2: 21.76
 - response: 7B803612113
   expected_values:
-    TOYOTA_VSS: 24.32
+    TOYOTA_VSS_V2: 24.32
 - response: 7B803612116
   expected_values:
-    TOYOTA_VSS: 28.16
+    TOYOTA_VSS_V2: 28.16
 - response: 7B80361211D
   expected_values:
-    TOYOTA_VSS: 37.12
+    TOYOTA_VSS_V2: 37.12
 - response: 7B803612127
   expected_values:
-    TOYOTA_VSS: 49.92
+    TOYOTA_VSS_V2: 49.92
 - response: 7B803612128
   expected_values:
-    TOYOTA_VSS: 51.2
+    TOYOTA_VSS_V2: 51.2
