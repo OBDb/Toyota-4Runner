@@ -1,0 +1,13 @@
+command_id: 7E0.010F
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E803410F4C
+  expected_values:
+    IAT: 36
+- response: 7E803410F4D
+  expected_values:
+    IAT: 37
+- response: 7E803410F59
+  expected_values:
+    IAT: 49

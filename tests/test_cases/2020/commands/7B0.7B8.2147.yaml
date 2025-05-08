@@ -14,6 +14,9 @@ test_cases:
 - response: 7B807614700FF807FF8
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B80761470100808000
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B80761470201868B05
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
