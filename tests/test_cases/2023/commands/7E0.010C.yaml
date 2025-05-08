@@ -1,0 +1,13 @@
+command_id: 7E0.010C
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E804410C0908
+  expected_values:
+    RPM: 578
+- response: 7E804410C09D0
+  expected_values:
+    RPM: 628
+- response: 7E804410C2234
+  expected_values:
+    RPM: 2189

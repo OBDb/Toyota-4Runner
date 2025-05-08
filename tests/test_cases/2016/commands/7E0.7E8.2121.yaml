@@ -11,9 +11,9 @@ test_cases:
 - response: 7E807612135381EFC00
   expected_values:
     TOYOTA_CC_S: 56
-- response: 7E807612161612DFC00
+- response: 7E8076121686939FC00
   expected_values:
-    TOYOTA_CC_S: 97
+    TOYOTA_CC_S: 105
 - response: 7E8076121797919FC00
   expected_values:
     TOYOTA_CC_S: 121
