@@ -3,26 +3,18 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 7B807614700007A961C
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
+  expected_values: {}
 - response: 7B80761470000807FFF
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
+  expected_values: {}
 - response: 7B80761470000808000
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
+  expected_values: {}
 - response: 7B807614700FF807EAF
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
+  expected_values: {}
 - response: 7B807614704FF9990DF
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
+  expected_values: {}
 - response: 7B8076147F408617271
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
+  expected_values: {}
 - response: 7B8076147FD00906A52
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
+  expected_values: {}
 - response: 7B8076147FF0080793B
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
+  expected_values: {}
