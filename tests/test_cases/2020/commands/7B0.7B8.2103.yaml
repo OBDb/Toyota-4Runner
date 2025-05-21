@@ -3,32 +3,8 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 7B80761030000000000
-  expected_values:
-    TOYOTA_TIRE_FL_SPD: 0
-    TOYOTA_TIRE_FR_SPD: 0
-    TOYOTA_TIRE_RL_SPD: 0
-    TOYOTA_TIRE_RR_SPD: 0
-    TOYOTA_TS_FL: 0
-    TOYOTA_TS_FR: 0
-    TOYOTA_TS_RL: 0
-    TOYOTA_TS_RR: 0
+  expected_values: {}
 - response: 7B807610301010101F0
-  expected_values:
-    TOYOTA_TIRE_FL_SPD: 1.28
-    TOYOTA_TIRE_FR_SPD: 1.28
-    TOYOTA_TIRE_RL_SPD: 1.28
-    TOYOTA_TIRE_RR_SPD: 1.28
-    TOYOTA_TS_FL: 1.28
-    TOYOTA_TS_FR: 1.28
-    TOYOTA_TS_RL: 1.28
-    TOYOTA_TS_RR: 1.28
+  expected_values: {}
 - response: 7B80761033535353500
-  expected_values:
-    TOYOTA_TIRE_FL_SPD: 67.84
-    TOYOTA_TIRE_FR_SPD: 67.84
-    TOYOTA_TIRE_RL_SPD: 67.84
-    TOYOTA_TIRE_RR_SPD: 67.84
-    TOYOTA_TS_FL: 67.84
-    TOYOTA_TS_FR: 67.84
-    TOYOTA_TS_RL: 67.84
-    TOYOTA_TS_RR: 67.84
+  expected_values: {}

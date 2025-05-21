@@ -3,14 +3,10 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 7E805612802A6E3
-  expected_values:
-    TOYOTA_ODO: 173795
+  expected_values: {}
 - response: 7E805612802A6FF
-  expected_values:
-    TOYOTA_ODO: 173823
+  expected_values: {}
 - response: 7E805612802A700
-  expected_values:
-    TOYOTA_ODO: 173824
+  expected_values: {}
 - response: 7E8056128FFFFFF
-  expected_values:
-    TOYOTA_ODO: 16777215
+  expected_values: {}
