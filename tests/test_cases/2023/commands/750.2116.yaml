@@ -13,11 +13,19 @@ test_cases:
     7E82700010000000006
     7E82801502015000000
   expected_values:
+<<<<<<< HEAD
     4RUNNER_TT_FL: 13
     4RUNNER_TT_FR: 55
     4RUNNER_TT_RL: -20
     4RUNNER_TT_RR: -20
     4RUNNER_TT_SPARE: -20
+=======
+    TOYOTA_TT_FL: 13
+    TOYOTA_TT_FR: 55
+    TOYOTA_TT_RL: -27
+    TOYOTA_TT_RR: -40
+    TOYOTA_TT_SPARE: -40
+>>>>>>> f70d85a (Add more.)
 - response: |-
     7E8103D6116355F0D00
     7E82100381F1D351404
@@ -29,8 +37,16 @@ test_cases:
     7E82700010000000006
     7E82801CE2015000000
   expected_values:
+<<<<<<< HEAD
     4RUNNER_TT_FL: 13
     4RUNNER_TT_FR: 55
     4RUNNER_TT_RL: -20
     4RUNNER_TT_RR: -20
     4RUNNER_TT_SPARE: -20
+=======
+    TOYOTA_TT_FL: 13
+    TOYOTA_TT_FR: 55
+    TOYOTA_TT_RL: -27
+    TOYOTA_TT_RR: -40
+    TOYOTA_TT_SPARE: -40
+>>>>>>> f70d85a (Add more.)

@@ -1,0 +1,24 @@
+command_id: 7E0.7E8.2182
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E806618246004880'
+  expected_values:
+    TOYOTA_ATF_PAN_T: 30
+    TOYOTA_ATF_TQC_T: 32.5
+- response: 7E806618248804B00
+  expected_values:
+    TOYOTA_ATF_PAN_T: 32.5
+    TOYOTA_ATF_TQC_T: 35
+- response: 7E80661824CE04CE0
+  expected_values:
+    TOYOTA_ATF_PAN_T: 36.875
+    TOYOTA_ATF_TQC_T: 36.875
+- response: 7E80661826D606D60
+  expected_values:
+    TOYOTA_ATF_PAN_T: 69.375
+    TOYOTA_ATF_TQC_T: 69.375
+- response: 7E80661826D607440
+  expected_values:
+    TOYOTA_ATF_PAN_T: 69.375
+    TOYOTA_ATF_TQC_T: 76.25

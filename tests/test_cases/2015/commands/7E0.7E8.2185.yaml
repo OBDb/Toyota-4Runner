@@ -1,0 +1,28 @@
+command_id: 7E0.7E8.2185
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E8056185010010'
+  expected_values:
+    TOYOTA_GEAR: 1
+    TOYOTA_GEAR_LOCKUP: 0
+- response: '7E8056185020010'
+  expected_values:
+    TOYOTA_GEAR: 2
+    TOYOTA_GEAR_LOCKUP: 0
+- response: '7E8056185030010'
+  expected_values:
+    TOYOTA_GEAR: 3
+    TOYOTA_GEAR_LOCKUP: 0
+- response: '7E8056185040010'
+  expected_values:
+    TOYOTA_GEAR: 4
+    TOYOTA_GEAR_LOCKUP: 0
+- response: '7E8056185050010'
+  expected_values:
+    TOYOTA_GEAR: 5
+    TOYOTA_GEAR_LOCKUP: 0
+- response: '7E8056185058018'
+  expected_values:
+    TOYOTA_GEAR: 5
+    TOYOTA_GEAR_LOCKUP: 1
