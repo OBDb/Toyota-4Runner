@@ -2,6 +2,15 @@ command_id: 7E0.011F
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7E804411F0090
+  expected_values:
+    RUNTM: 144
+- response: 7E804411F0193
+  expected_values:
+    RUNTM: 403
 - response: 7E804411F0300
   expected_values:
     RUNTM: 768
+- response: 7E804411F0604
+  expected_values:
+    RUNTM: 1540

@@ -5,3 +5,6 @@ test_cases:
 - response: 7E803418E86
   expected_values:
     TQ_FR: 9
+- response: 7E803418E87
+  expected_values:
+    TQ_FR: 10

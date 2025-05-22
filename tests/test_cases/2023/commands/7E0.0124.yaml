@@ -1,0 +1,8 @@
+command_id: 7E0.0124
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80641247E6E6741
+  expected_values:
+    LAMBDA11_WIDE: 0.98773
+    O2S11_WIDE: 3.22511

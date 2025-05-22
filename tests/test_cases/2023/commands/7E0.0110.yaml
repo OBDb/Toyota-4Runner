@@ -2,15 +2,15 @@ command_id: 7E0.0110
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: '7E80441100173'
+- response: '7E80441100054'
   expected_values:
-    MAF: 3.71
-- response: '7E80441100180'
+    MAF: 0.84
+- response: 7E804411001F0
   expected_values:
-    MAF: 3.84
-- response: 7E8044110022C
+    MAF: 4.96
+- response: '7E80441100800'
   expected_values:
-    MAF: 5.56
-- response: '7E80441100232'
+    MAF: 20.48
+- response: 7E804411015D6
   expected_values:
-    MAF: 5.62
+    MAF: 55.9
