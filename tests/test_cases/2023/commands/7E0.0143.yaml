@@ -2,24 +2,12 @@ command_id: 7E0.0143
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E8044143001F
+- response: '7E80441430000'
   expected_values:
-    LOAD_ABS: 12.15686
-- response: '7E80441430021'
+    LOAD_ABS: 0
+- response: 7E804414300F8
   expected_values:
-    LOAD_ABS: 12.94118
-- response: '7E80441430026'
+    LOAD_ABS: 97.2549
+- response: '7E80441430100'
   expected_values:
-    LOAD_ABS: 14.90196
-- response: '7E80441430028'
-  expected_values:
-    LOAD_ABS: 15.68627
-- response: 7E8044143002C
-  expected_values:
-    LOAD_ABS: 17.2549
-- response: '7E80441430035'
-  expected_values:
-    LOAD_ABS: 20.78431
-- response: '7E80441430036'
-  expected_values:
-    LOAD_ABS: 21.17647
+    LOAD_ABS: 100.39216

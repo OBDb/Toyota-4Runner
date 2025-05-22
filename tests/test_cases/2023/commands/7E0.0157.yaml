@@ -1,0 +1,7 @@
+command_id: 7E0.0157
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E803415780'
+  expected_values:
+    STSO2FT2: 0
