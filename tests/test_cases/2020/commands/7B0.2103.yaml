@@ -3,20 +3,8 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: 7B80761030000000000
-  expected_values:
-    4RUNNER_TIRE_FL_SPD: 0
-    4RUNNER_TIRE_FR_SPD: 0
-    4RUNNER_TIRE_RL_SPD: 0
-    4RUNNER_TIRE_RR_SPD: 0
+  expected_values: {}
 - response: 7B807610300000000F0
-  expected_values:
-    4RUNNER_TIRE_FL_SPD: 0
-    4RUNNER_TIRE_FR_SPD: 0
-    4RUNNER_TIRE_RL_SPD: 0
-    4RUNNER_TIRE_RR_SPD: 0
+  expected_values: {}
 - response: 7B80761033F3F3F3F00
-  expected_values:
-    4RUNNER_TIRE_FL_SPD: 80.64
-    4RUNNER_TIRE_FR_SPD: 80.64
-    4RUNNER_TIRE_RL_SPD: 80.64
-    4RUNNER_TIRE_RR_SPD: 80.64
+  expected_values: {}

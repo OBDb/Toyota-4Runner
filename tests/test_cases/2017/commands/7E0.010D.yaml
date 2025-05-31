@@ -7,20 +7,50 @@ test_cases:
     7E804411001F4
   expected_values:
     VSS: 0
+    MAF: 5.0
 - response: |-
     7E803410D11
     7E80441100591
   expected_values:
-    VSS: 17
+    VSS: 17.0
+    MAF: 14.25
 - response: |-
     7E803410D26
     7E80441100B3B
     7E80641010007ED00
   expected_values:
-    VSS: 38
+    VSS: 38.0
+    MAF: 28.75
+    ACRF_RDY: 0
+    ACRF_SUP: 0
+    AIR_RDY: 0
+    AIR_SUP: 1.0
+    CAT_RDY: 0
+    CAT_SUP: 1.0
+    CCM_RDY: 0
+    CCM_SUP: 1.0
+    CIM_SUP: SPARK
+    DTC_CNT: 0
+    EGR_RDY: 0
+    EGR_SUP: 1.0
+    EVAP_RDY: 0
+    EVAP_SUP: 1.0
+    FUEL_RDY: 0
+    FUEL_SUP: 1.0
+    HCAT_RDY: 0
+    HCAT_SUP: 0
+    HTR_RDY: 0
+    HTR_SUP: 1.0
+    MIL: 0
+    MIS_RDY: 0
+    MIS_SUP: 1.0
+    O2S_RDY: 0
+    O2S_SUP: 1.0
 - response: |-
     7E803410D4A
     7E804411002F2
     7E80441423358
   expected_values:
-    VSS: 74
+    VSS: 74.0
+    MAF: 7.54
+    VPWR: 13.144
