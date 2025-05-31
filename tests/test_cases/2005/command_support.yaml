@@ -42,8 +42,11 @@ supported_commands_by_ecu:
   - 014D:MIL_TIME
   - 014E:CLR_TIME
   - 0153:EVAP_VPA
-  - '2121'
-  - '2128'
+  - 7E0.010D:VSS
+  - 7E0.0131:CLR_DIST
+  - 7E0.0142:VPWR
+  - 7E0.7E8.2121
+  - 7E0.7E8.2128
 unsupported_commands_by_ecu:
   6F1:
   - 6F1.60D.22D240
