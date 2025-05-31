@@ -51,7 +51,6 @@ supported_commands_by_ecu:
   - 7E0.010D:VSS
   - 7E0.0131:CLR_DIST
   - 7E0.0142:VPWR
-  - 7E0.7E8.2100
   - 7E0.7E8.2121
   - 7E0.7E8.2151
   - 7E0.7E8.2182
