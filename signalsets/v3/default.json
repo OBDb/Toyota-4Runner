@@ -28,7 +28,7 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "from": 2024, "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022] },
   "signals": [
-    {"id": "4RUNNER_STEER_ANGLE", "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 1000, "min": -1000, "div": 10, "add": -32768, "unit": "degrees" }, "name": "Steering wheel angle"}
+    {"id": "4RUNNER_STEER_ANGLE", "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 1000, "min": -1000, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"21": "29"}, "freq": 30, "dbgfilter": { "from": 2024, "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022] },
   "signals": [
