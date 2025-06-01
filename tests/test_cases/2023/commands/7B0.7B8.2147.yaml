@@ -1,0 +1,29 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- response: 7B80761470000737989
+  expected_values:
+    4RUNNER_STEER_ANGLE: -165.5
+- response: 7B8076147000074970D
+  expected_values:
+    4RUNNER_STEER_ANGLE: 590.1
+- response: 7B80761470000807FFF
+  expected_values:
+    4RUNNER_STEER_ANGLE: -0.1
+- response: 7B80761470000808000
+  expected_values:
+    4RUNNER_STEER_ANGLE: 0
+- response: 7B80761470000896C42
+  expected_values:
+    4RUNNER_STEER_ANGLE: -505.4
+- response: 7B807614700FF7D72C4
+  expected_values:
+    4RUNNER_STEER_ANGLE: -338.8
+- response: 7B80761470402A38D50
+  expected_values:
+    4RUNNER_STEER_ANGLE: 340.8
+- response: 7B8076147E8F75B7467
+  expected_values:
+    4RUNNER_STEER_ANGLE: -296.9
+- response: 7B8076147FF007E9703
+  expected_values:
+    4RUNNER_STEER_ANGLE: 589.1
