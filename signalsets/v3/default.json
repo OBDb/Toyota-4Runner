@@ -28,6 +28,9 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
+    {"id": "4RUNNER_LAT_G",       "path": "Orientation", "fmt": {           "len": 8,  "max": 2.5,    "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g"},
+    {"id": "4RUNNER_LNG_G",       "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.5,    "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Longitudinal g"},
+    {"id": "4RUNNER_YAW_RATE",    "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,    "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate value (degrees/se"},
     {"id": "4RUNNER_STEER_ANGLE", "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.8, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive = counter-clockwise, negative = clockwise."}
   ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"21": "29"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
@@ -37,8 +40,8 @@
 { "hdr": "7D0", "cmd": {"21": "62"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_PARKING_BRAKE", "path": "Control", "name": "Parking brake", "fmt": {"len": 8, "map": {
-          "0": { "description": "", "value": "Off" },
-          "2": { "description": "", "value": "On" }
+          "1": { "description": "", "value": "Off" },
+          "3": { "description": "", "value": "On" }
         }}
     }
   ]},
