@@ -41,7 +41,9 @@
   "signals": [
     {"id": "4RUNNER_PARKING_BRAKE", "path": "Control", "name": "Parking brake", "fmt": {"len": 8, "map": {
           "1": { "description": "", "value": "Off" },
-          "3": { "description": "", "value": "On" }
+          "3": { "description": "", "value": "On" },
+          "5": { "description": "", "value": "Off/R" },
+          "7": { "description": "", "value": "On/R" }
         }}
     }
   ]},
