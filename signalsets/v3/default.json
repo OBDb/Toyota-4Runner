@@ -39,7 +39,7 @@
   ]},
 { "hdr": "7D0", "rax": "7D8", "cmd": {"21": "62"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "4RUNNER_PARKING_BRAKE", "path": "Control", "name": "Parking brake", "fmt": {"bix": 8,"len": 8, "map": {
+    {"id": "4RUNNER_PARKING_BRAKE", "path": "Control", "name": "Parking brake", "fmt": {"len": 8, "map": {
           "16": { "description": "", "value": "Off" },
           "48": { "description": "", "value": "On" }
         }}
