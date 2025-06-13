@@ -39,13 +39,19 @@
   ]},
 { "hdr": "7D0", "cmd": {"21": "62"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "4RUNNER_PARKING_BRAKE", "path": "Control", "name": "Parking brake", "fmt": {"len": 8, "map": {
-          "1": { "description": "", "value": "Off" },
-          "5": { "description": "", "value": "Off" },
-          "3": { "description": "", "value": "On" },
-          "7": { "description": "", "value": "On" }
-        }}
+{"id": "4RUNNER_PARKING_BRAKE","path": "Control","name": "Parking brake","fmt": {"len": 8,"map": {
+      "1": { "description": "Brake Off, likely in Park",        "value": "Off" },
+      "3": { "description": "Brake On, likely in Park",         "value": "On" },
+      "5": { "description": "Brake Off, in Reverse",            "value": "Off" },
+      "7": { "description": "Brake On, in Reverse",             "value": "On" },
+      "9": { "description": "Brake Off, gear/position unknown", "value": "Off" },
+      "11": { "description": "Brake On, gear/position unknown", "value": "On" },
+      "13": { "description": "Brake Off, in Reverse (alt)",     "value": "Off" },
+      "15": { "description": "Brake On, in Reverse (alt)",      "value": "On" }
     }
+  },
+  "description": "Represents the parking brake state."
+}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2012, 2013, 2014], "from": 2018 },
   "signals": [
