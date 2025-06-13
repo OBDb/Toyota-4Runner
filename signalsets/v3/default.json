@@ -37,37 +37,22 @@
   "signals": [
     {"id": "4RUNNER_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "liters" }, "name": "Fuel level (volume)", "suggestedMetric": "fuelTankLevel"}
   ]},
-{
-  "hdr": "7D0",
-  "cmd": { "21": "62" },
-  "freq": 1,
-  "dbgfilter": {
-    "to": 2014,
-    "years": [2016, 2017, 2018, 2019, 2021, 2022],
-    "from": 2024
-  },
+{ "hdr": "7D0", "cmd": {"21": "62"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
-    {
-      "id": "4RUNNER_PARKING_BRAKE",
-      "path": "Control",
-      "name": "Parking brake",
-      "fmt": {
-        "len": 8,
-        "map": {
-          "1":  { "value": "Off" },
-          "3":  { "value": "On"  },
-          "5":  { "value": "Off" },
-          "7":  { "value": "On"  },
-          "9":  { "value": "Off" },
-          "11": { "value": "On"  },
-          "16": { "value": "Off" },
-          "48": { "value": "On"  },
-          "144": { "value": "Off" },
-          "176": { "value": "On"  },
-          "208": { "value": "Off" },
-          "240": { "value": "On"  }
-        }
-      }
+    {"id": "4RUNNER_PARKING_BRAKE", "path": "Control", "name": "Parking brake", "fmt": {"len": 8, "map": {
+          "1":   { "description": "", "value": "Off" },
+          "3":   { "description": "", "value": "On"  },
+          "5":   { "description": "", "value": "Off" },
+          "7":   { "description": "", "value": "On"  },
+          "9":   { "description": "", "value": "Off" },
+          "11":  { "description": "", "value": "On"  },
+          "16":  { "description": "", "value": "Off" },
+          "48":  { "description": "", "value": "On"  },
+          "144": { "description": "", "value": "Off" },
+          "176": { "description": "", "value": "On"  },
+          "208": { "description": "", "value": "Off" },
+          "240": { "description": "", "value": "On"  }
+        }}
     }
   ]
 },
