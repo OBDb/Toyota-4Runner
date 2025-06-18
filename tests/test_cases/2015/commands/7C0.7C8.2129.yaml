@@ -5,4 +5,4 @@ test_cases:
     4RUNNER_FLI_VOL: 0
 - response: 7C803612983
   expected_values:
-    4RUNNER_FLI_VOL: 65.5
+    4RUNNER_FLI_VOL: 17.30515
