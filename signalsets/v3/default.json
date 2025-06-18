@@ -24,7 +24,7 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "4RUNNER_VSS", "path": "Movement", "fmt": { "len": 8, "max": 326, "mul": 1.28, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
+    {"id": "4RUNNER_VSS", "path": "Movement", "fmt": { "len": 8, "max": 323.85, "mul": 1.27, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
