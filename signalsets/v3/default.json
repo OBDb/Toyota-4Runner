@@ -33,7 +33,7 @@
     {"id": "4RUNNER_YAW_RATE",    "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,    "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate value (degrees/sec)"},
     {"id": "4RUNNER_STEER_ANGLE", "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.8, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive = counter-clockwise, negative = clockwise."}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "29"}, "freq": 15, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "29"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 23, "div": 3785, "mul": 500, "unit": "gallons" }, "name": "Fuel level (volume)", "suggestedMetric": "fuelTankLevel"}
   ]},
