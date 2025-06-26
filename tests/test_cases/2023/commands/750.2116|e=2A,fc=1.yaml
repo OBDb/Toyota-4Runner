@@ -1,56 +1,56 @@
 command_id: 750.2116|e=2A,fc=1
 test_cases:
-- response: |-
-    7582A10076116000000
-    7582A21000000000000
-  expected_values:
+- expected_values:
     4RUNNER_TT_FL: -20
     4RUNNER_TT_FR: -20
     4RUNNER_TT_RL: -20
     4RUNNER_TT_RR: -20
     4RUNNER_TT_SPARE: -20
-- response: |-
-    7582A100761164C4B4E
-    7582A214F0000000000
-  expected_values:
-    4RUNNER_TT_FL: 36
-    4RUNNER_TT_FR: 35
-    4RUNNER_TT_RL: 38
+  response: |-
+    7582A10076116000000
+    7582A21000000000000
+- expected_values:
+    4RUNNER_TT_FL: -20
+    4RUNNER_TT_FR: -20
+    4RUNNER_TT_RL: -20
     4RUNNER_TT_RR: 39
     4RUNNER_TT_SPARE: -20
-- response: |-
-    7582A100761164F4C58
-    7582A21600000000000
-  expected_values:
+  response: |-
+    7582A10076116000000
+    7582A214F0000000000
+- expected_values:
     4RUNNER_TT_FL: 39
     4RUNNER_TT_FR: 36
     4RUNNER_TT_RL: 48
     4RUNNER_TT_RR: 56
     4RUNNER_TT_SPARE: -20
-- response: |-
-    7582A10076116515150
-    7582A21510000000000
-  expected_values:
-    4RUNNER_TT_FL: 41
-    4RUNNER_TT_FR: 41
-    4RUNNER_TT_RL: 40
-    4RUNNER_TT_RR: 41
+  response: |-
+    7582A100761164F4C58
+    7582A21600000000000
+- expected_values:
+    4RUNNER_TT_FL: 48
+    4RUNNER_TT_FR: 48
+    4RUNNER_TT_RL: 52
+    4RUNNER_TT_RR: 54
     4RUNNER_TT_SPARE: -20
-- response: |-
-    7582A1007611656515A
-    7582A21550000000000
-  expected_values:
-    4RUNNER_TT_FL: 46
-    4RUNNER_TT_FR: 41
+  response: |-
+    7582A1007611658585C
+    7582A215E0000000000
+- expected_values:
+    4RUNNER_TT_FL: 48
+    4RUNNER_TT_FR: 49
+    4RUNNER_TT_RL: 52
+    4RUNNER_TT_RR: 55
+    4RUNNER_TT_SPARE: -20
+  response: |-
+    7582A1007611658595C
+    7582A215F0000000000
+- expected_values:
+    4RUNNER_TT_FL: 50
+    4RUNNER_TT_FR: 48
     4RUNNER_TT_RL: 50
-    4RUNNER_TT_RR: 45
+    4RUNNER_TT_RR: 48
     4RUNNER_TT_SPARE: -20
-- response: |-
-    7582A1007611656515B
-    7582A21570000000000
-  expected_values:
-    4RUNNER_TT_FL: 46
-    4RUNNER_TT_FR: 41
-    4RUNNER_TT_RL: 51
-    4RUNNER_TT_RR: 47
-    4RUNNER_TT_SPARE: -20
+  response: |-
+    7582A100761165A585A
+    7582A21580000000000

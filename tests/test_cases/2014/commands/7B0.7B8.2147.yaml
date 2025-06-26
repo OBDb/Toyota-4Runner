@@ -1,0 +1,17 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- expected_values:
+    4RUNNER_STEER_ANGLE: -6
+  response: 7B80761470000807FC4
+- expected_values:
+    4RUNNER_STEER_ANGLE: -6
+  response: 7B80761470001807FC4
+- expected_values:
+    4RUNNER_STEER_ANGLE: -4.5
+  response: 7B80761470001807FD3
+- expected_values:
+    4RUNNER_STEER_ANGLE: -4.1
+  response: 7B80761470001807FD7
+- expected_values:
+    4RUNNER_STEER_ANGLE: 4.8
+  response: 7B80761470001808030
