@@ -7,7 +7,7 @@
     {"id": "4RUNNER_TT_RR",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 150, "min": -20, "add": -40, "unit": "celsius" }, "name": "Rear right tire temperature"},
     {"id": "4RUNNER_TT_SPARE", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 150, "min": -20, "add": -40, "unit": "celsius" }, "name": "Spare tire temperature"}
   ]},
-{ "hdr": "750", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"21": "30"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "750", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"21": "30"}, "freq": 2.5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_TP_FL",    "path": "Tires", "fmt": {           "len": 8, "max": 3.88, "div": 58, "add": -0.5, "unit": "bars" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
     {"id": "4RUNNER_TP_FR",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 3.88, "div": 58, "add": -0.5, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
@@ -22,11 +22,11 @@
     {"id": "4RUNNER_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "4RUNNER_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 0.2, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_VSS", "path": "Movement", "fmt": { "len": 8, "max": 323.85, "mul": 1.35, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_LAT_G",       "path": "Orientation", "fmt": {           "len": 8,  "max": 2.5,    "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g"},
     {"id": "4RUNNER_LNG_G",       "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.5,    "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Longitudinal g"},
@@ -39,7 +39,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2012, 2013, 2014], "from": 2018 },
   "signals": [
-    {"id": "4RUNNER_CC_S", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"}
+    {"id": "4RUNNER_CC_S", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Not working - Cruise control speed"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "28"}, "freq": 5, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
@@ -74,7 +74,7 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "85"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "85"}, "freq": 0.2, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_GEAR",        "path": "Transmission", "fmt": {          "len": 8, "max": 20, "unit": "scalar" }, "name": "Gear"},
     {"id": "4RUNNER_TQC_LOCKUP", "path": "Transmission", "fmt": {"bix": 8, "len": 1, "max": 1,  "unit": "offon"  }, "name": "Torque converter lock-up", "description": "Engages a clutch inside the torque converter to create a direct connection between the engine and transmission, reducing slippage and improving efficiency."}
