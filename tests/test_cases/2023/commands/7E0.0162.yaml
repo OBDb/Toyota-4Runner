@@ -1,8 +1,8 @@
 command_id: 7E0.0162
 test_cases:
-- response: 7E80341627D
-  expected_values:
+- expected_values:
     TQ_ACT: 0
-- response: 7E8034162B8
-  expected_values:
+  response: 7E80341627D
+- expected_values:
     TQ_ACT: 59
+  response: 7E8034162B8

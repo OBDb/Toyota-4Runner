@@ -1,17 +1,17 @@
 command_id: 7E0.7E8.2128
 test_cases:
-- response: 7E80661287FB268BD
-  expected_values:
+- expected_values:
     4RUNNER_ODO: 8368744
-- response: 7E80661287FC668F9
-  expected_values:
+  response: 7E80661287FB268BD
+- expected_values:
     4RUNNER_ODO: 8373864
-- response: 7E8066128800A692B
-  expected_values:
+  response: 7E80661287FC668F9
+- expected_values:
     4RUNNER_ODO: 8391273
-- response: 7E8066128805F69E9
-  expected_values:
+  response: 7E8066128800A692B
+- expected_values:
     4RUNNER_ODO: 8413033
-- response: 7E806612880D66A4D
-  expected_values:
+  response: 7E8066128805F69E9
+- expected_values:
     4RUNNER_ODO: 8443498
+  response: 7E806612880D66A4D
