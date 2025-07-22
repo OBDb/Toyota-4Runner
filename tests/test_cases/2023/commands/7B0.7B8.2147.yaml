@@ -1,7 +1,6 @@
 command_id: 7B0.7B8.2147
 test_cases:
-- response: 7B80761470000737989
-  expected_values:
+- expected_values:
     4RUNNER_STEER_ANGLE: -165.5
     4RUNNER_LAT_G: 0.0
     4RUNNER_LNG_G: 0.0

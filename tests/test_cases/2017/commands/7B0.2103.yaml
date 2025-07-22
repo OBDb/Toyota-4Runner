@@ -1,20 +1,20 @@
 command_id: 7B0.2103
 test_cases:
-- response: 7B80761030000000000
-  expected_values:
+- expected_values:
     4RUNNER_TIRE_FL_SPD: 0
     4RUNNER_TIRE_FR_SPD: 0
     4RUNNER_TIRE_RL_SPD: 0
     4RUNNER_TIRE_RR_SPD: 0
-- response: 7B80761033E3D3E3D00
-  expected_values:
+  response: 7B80761030000000000
+- expected_values:
     4RUNNER_TIRE_FL_SPD: 78.08
     4RUNNER_TIRE_FR_SPD: 79.36
     4RUNNER_TIRE_RL_SPD: 78.08
     4RUNNER_TIRE_RR_SPD: 79.36
-- response: 7B80761033E3E3E3D00
-  expected_values:
+  response: 7B80761033E3D3E3D00
+- expected_values:
     4RUNNER_TIRE_FL_SPD: 79.36
     4RUNNER_TIRE_FR_SPD: 79.36
     4RUNNER_TIRE_RL_SPD: 78.08
     4RUNNER_TIRE_RR_SPD: 79.36
+  response: 7B80761033E3E3E3D00
