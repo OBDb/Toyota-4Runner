@@ -74,7 +74,7 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "85"}, "freq": 0.2, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "85"}, "freq": 0.4, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_GEAR",        "path": "Transmission", "fmt": {          "len": 8, "max": 20, "unit": "scalar" }, "name": "Gear"},
     {"id": "4RUNNER_TQC_LOCKUP", "path": "Transmission", "fmt": {"bix": 8, "len": 1, "max": 1,  "unit": "offon"  }, "name": "Torque converter lock-up", "description": "Engages a clutch inside the torque converter to create a direct connection between the engine and transmission, reducing slippage and improving efficiency."}
