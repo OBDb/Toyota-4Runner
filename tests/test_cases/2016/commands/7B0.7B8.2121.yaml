@@ -5,4 +5,4 @@ test_cases:
     4RUNNER_VSS: 0
 - response: 7B80361215D
   expected_values:
-    4RUNNER_VSS: 118.11
+    4RUNNER_VSS: 125.55
