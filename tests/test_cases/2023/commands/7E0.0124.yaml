@@ -8,3 +8,7 @@ test_cases:
     LAMBDA11_WIDE: 0.99619
     O2S11_WIDE: 3.27391
   response: 7E80641247F8368D1
+- expected_values:
+    LAMBDA11_WIDE: 1.0076
+    O2S11_WIDE: 3.3276
+  response: 7E806412480F96A89
