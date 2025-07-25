@@ -4,11 +4,11 @@ test_cases:
     4RUNNER_VSS: 0
   response: 7B803612100
 - expected_values:
-    4RUNNER_VSS: 47.36
+    4RUNNER_VSS: 49.95
   response: 7B803612125
 - expected_values:
-    4RUNNER_VSS: 107.52
+    4RUNNER_VSS: 113.4
   response: 7B803612154
 - expected_values:
-    4RUNNER_VSS: 125.44
+    4RUNNER_VSS: 132.3
   response: 7B803612162

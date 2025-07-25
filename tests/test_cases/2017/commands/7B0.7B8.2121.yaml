@@ -2,6 +2,7 @@ command_id: 7B0.7B8.2121
 test_cases:
 - expected_values:
     4RUNNER_VSS: 0
-- response: 7B80361213D
-  expected_values:
+  response: 7B803612100
+- expected_values:
     4RUNNER_VSS: 82.35
+  response: 7B80361213D

@@ -1,0 +1,5 @@
+command_id: 7E0.0112
+test_cases:
+- expected_values:
+    AIR_STAT: 'OFF'
+  response: '7E803411204'
