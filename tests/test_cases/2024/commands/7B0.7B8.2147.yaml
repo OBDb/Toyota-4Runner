@@ -1,0 +1,50 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- expected_values:
+    4RUNNER_LAT_G: 0
+    4RUNNER_LNG_G: 0
+    4RUNNER_STEER_ANGLE: -405.6
+    4RUNNER_YAW_RATE: -20
+  response: 7B807614700006C7028
+- expected_values:
+    4RUNNER_LAT_G: 0
+    4RUNNER_LNG_G: 0
+    4RUNNER_STEER_ANGLE: 0
+    4RUNNER_YAW_RATE: 0
+  response: 7B80761470000808000
+- expected_values:
+    4RUNNER_LAT_G: 0
+    4RUNNER_LNG_G: 0
+    4RUNNER_STEER_ANGLE: 533.3
+    4RUNNER_YAW_RATE: 0
+  response: 7B807614700008094D5
+- expected_values:
+    4RUNNER_LAT_G: 0
+    4RUNNER_LNG_G: -0.02
+    4RUNNER_STEER_ANGLE: -0.9
+    4RUNNER_YAW_RATE: 0
+  response: 7B807614700FF807FF7
+- expected_values:
+    4RUNNER_LAT_G: 0.02
+    4RUNNER_LNG_G: 0.06
+    4RUNNER_STEER_ANGLE: -0.1
+    4RUNNER_YAW_RATE: 0
+  response: 7B80761470103807FFF
+- expected_values:
+    4RUNNER_LAT_G: 0.34
+    4RUNNER_LNG_G: 0
+    4RUNNER_STEER_ANGLE: 159.5
+    4RUNNER_YAW_RATE: 24
+  response: 7B8076147110098863B
+- expected_values:
+    4RUNNER_LAT_G: -0.36
+    4RUNNER_LNG_G: 0.14
+    4RUNNER_STEER_ANGLE: -446.8
+    4RUNNER_YAW_RATE: -36
+  response: 7B8076147EE075C6E8C
+- expected_values:
+    4RUNNER_LAT_G: -0.02
+    4RUNNER_LNG_G: 0
+    4RUNNER_STEER_ANGLE: -12.5
+    4RUNNER_YAW_RATE: 0
+  response: 7B8076147FF00807F83
