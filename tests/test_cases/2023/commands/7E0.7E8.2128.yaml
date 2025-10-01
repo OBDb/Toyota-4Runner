@@ -10,5 +10,5 @@ test_cases:
     4RUNNER_ODO: 73216
   response: 7E8056128011E00
 - expected_values:
-    4RUNNER_ODO: 79544
-  response: 7E80561280136B8
+    4RUNNER_ODO: 74563
+  response: '7E8056128012343'

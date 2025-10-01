@@ -1,20 +1,20 @@
 command_id: 7E0.7E8.2121
 test_cases:
 - expected_values:
-    4RUNNER_CC_S: 0
-  response: '7E80761210000000000'
+    4RUNNER_CC_S: 80
+  response: 7E8076121335000BCE0
 - expected_values:
-    4RUNNER_CC_S: 0
-  response: 7E807612100000000E0
+    4RUNNER_CC_S: 80
+  response: 7E8076121345000BCE0
 - expected_values:
-    4RUNNER_CC_S: 88
-  response: 7E8076121575809FC00
+    4RUNNER_CC_S: 80
+  response: 7E8076121555000BC00
 - expected_values:
-    4RUNNER_CC_S: 124
-  response: 7E80761216E7C00BC00
+    4RUNNER_CC_S: 80
+  response: 7E8076121565000BC00
 - expected_values:
-    4RUNNER_CC_S: 121
-  response: 7E8076121797942FC00
+    4RUNNER_CC_S: 80
+  response: 7E80761215A5000BC00
 - expected_values:
-    4RUNNER_CC_S: 121
-  response: 7E8076121827900BC00
+    4RUNNER_CC_S: 80
+  response: 7E80761215E5000BC00
