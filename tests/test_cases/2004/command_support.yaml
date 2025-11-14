@@ -1,5 +1,4 @@
 model_year: 2004
-supported_commands_by_ecu: {}
 unsupported_commands_by_ecu:
   "6F1":
   - 6F1.60D.22D240
