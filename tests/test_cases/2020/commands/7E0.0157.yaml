@@ -1,5 +1,5 @@
 command_id: 7E0.0157
 test_cases:
 - expected_values:
-    STSO2FT2: 0
+    STSO2FT2: -28
   response: '7E803415780'
