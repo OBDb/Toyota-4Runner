@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2121
+test_cases:
+- expected_values:
+    4RUNNER_CC_S: 0
+  response: '7E80761210000000000'
+- expected_values:
+    4RUNNER_CC_S: 46
+  response: 7E8076121002E003CE0
+- expected_values:
+    4RUNNER_CC_S: 46
+  response: 7E8076121002E00BCE0
+- expected_values:
+    4RUNNER_CC_S: 46
+  response: 7E80761210B2E00BCE0
+- expected_values:
+    4RUNNER_CC_S: 0
+  response: 7E80761211B0000BCE0
+- expected_values:
+    4RUNNER_CC_S: 60
+  response: 7E8076121283C00BCE0
+- expected_values:
+    4RUNNER_CC_S: 46
+  response: 7E80761212E2E05FC00
+- expected_values:
+    4RUNNER_CC_S: 60
+  response: 7E8076121323C00BC00
+- expected_values:
+    4RUNNER_CC_S: 60
+  response: 7E80761213C3C08FC00
+- expected_values:
+    4RUNNER_CC_S: 60
+  response: 7E8076121443C00BC00
