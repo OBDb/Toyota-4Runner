@@ -15,6 +15,7 @@ test_cases:
 - expected_values:
     4RUNNER_TIRE_FL_SPD: 139.52
     4RUNNER_TIRE_FR_SPD: 139.52
+    4RUNNER_TIRE_RL_SPD: 139.52
     4RUNNER_TIRE_RR_SPD: 139.52
   response: 7B80761036D6D6D6D00
 - expected_values:
