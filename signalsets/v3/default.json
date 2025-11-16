@@ -55,7 +55,7 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2004, "years": [2007, 2008, 2009, 2010, 2011, 2013], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "to": 2004, "years": [2007, 2008, 2009, 2010, 2011, 2013, 2016], "from": 2019 },
   "signals": [
     {"id": "4RUNNER_CC_S", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"}
   ]},
