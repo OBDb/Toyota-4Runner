@@ -1,0 +1,11 @@
+command_id: 7D0.7D8.2162|f=2007-
+test_cases:
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'Off'
+  response: 7D80461620100
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'Off'
+  response: 7D80461620181
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'Off'
+  response: 7D80461620900
