@@ -46,10 +46,10 @@ unsupported_commands_by_ecu:
   - 750.758.222021
   "7B0":
   - 7B0.2103
+  - 7B0.221006
   - 7B0.7B8.2103
   - 7B0.7B8.2121
   - 7B0.7B8.2147
-  - 7B0.7B8.221006:4RUNNER_MASTER_CYL_TEMP
   "7B1":
   - 7B1.221026
   "7B3":
