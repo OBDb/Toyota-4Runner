@@ -451,7 +451,7 @@
   "signals": [
     {"id": "4RUNNER_VSS", "path": "Movement", "fmt": { "len": 8, "max": 323.85, "mul": 1.35, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2018 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_STOP_LIGHT_RELAY", "path": "Movement", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light relay"}
   ]},
@@ -560,7 +560,7 @@
     {"id": "4RUNNER_AIR_OUTLET_SERVO_PULSE_D",      "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air outlet servo pulse, driver"},
     {"id": "4RUNNER_AIR_OUTLET_SERVO_ACTU_PULSE_D", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air outlet servo actual pulse, driver"}
   ]},
-{ "hdr": "7C4", "cmd": {"21": "44"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2018 },
+{ "hdr": "7C4", "cmd": {"21": "44"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_AIR_INLET_DAMPER_TARGET_PULSE", "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air inlet damper target pulse"},
     {"id": "4RUNNER_AIR_INLET_DAMPER_ACTUAL_PULSE", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air inlet damper actual pulse"}
