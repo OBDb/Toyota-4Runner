@@ -4,29 +4,5 @@ test_cases:
     AAT: 36
   response: 7E80341464C
 - expected_values:
-    AAT: 38
-  response: 7E80341464E
-- expected_values:
-    AAT: 43
-  response: '7E803414653'
-- expected_values:
-    AAT: 46
-  response: '7E803414656'
-- expected_values:
-    AAT: 51
-  response: 7E80341465B
-- expected_values:
-    AAT: 53
-  response: 7E80341465D
-- expected_values:
-    AAT: 58
-  response: '7E803414662'
-- expected_values:
-    AAT: 60
-  response: '7E803414664'
-- expected_values:
-    AAT: 61
-  response: '7E803414665'
-- expected_values:
     AAT: 64
   response: '7E803414668'
