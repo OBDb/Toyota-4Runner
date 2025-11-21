@@ -1,13 +1,11 @@
 command_id: 750.758.2116|e=2A,fc=1
 test_cases:
 - expected_values:
-    4RUNNER_TT_FL: 24
-    4RUNNER_TT_FR: 24
-    4RUNNER_TT_RL: 26
-    4RUNNER_TT_RR: 26
+    4RUNNER_TT_FL: 22
+    4RUNNER_TT_RL: 22
   response: |-
-    7582A10076116404042
-    7582A21420000000000
+    7582A100761163E003E
+    7582A21000000000000
 - expected_values:
     4RUNNER_TT_FL: 28
   response: |-
