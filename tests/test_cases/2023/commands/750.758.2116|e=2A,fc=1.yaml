@@ -1,24 +1,30 @@
 command_id: 750.758.2116|e=2A,fc=1
 test_cases:
 - expected_values:
+    4RUNNER_TT_RL: 30
+    4RUNNER_TT_RR: 30
+  response: |-
+    7582A10076116000046
+    7582A21460000000000
+- expected_values:
     4RUNNER_TT_FL: 22
     4RUNNER_TT_RL: 22
   response: |-
     7582A100761163E003E
     7582A21000000000000
 - expected_values:
+    4RUNNER_TT_FL: 22
+    4RUNNER_TT_FR: 23
+    4RUNNER_TT_RL: 23
+    4RUNNER_TT_RR: 23
+  response: |-
+    7582A100761163E3F3F
+    7582A213F0000000000
+- expected_values:
     4RUNNER_TT_FL: 28
   response: |-
     7582A10076116440000
     7582A21000000000000
-- expected_values:
-    4RUNNER_TT_FL: 36
-    4RUNNER_TT_FR: 35
-    4RUNNER_TT_RL: 38
-    4RUNNER_TT_RR: 39
-  response: |-
-    7582A100761164C4B4E
-    7582A214F0000000000
 - expected_values:
     4RUNNER_TT_FL: 39
     4RUNNER_TT_FR: 36
