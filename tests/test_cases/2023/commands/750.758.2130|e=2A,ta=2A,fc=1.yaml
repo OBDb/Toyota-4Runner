@@ -8,6 +8,12 @@ test_cases:
     7582A1007613000A8A7
     7582A21A90000000000
 - expected_values:
+    4RUNNER_TP_FL: 2.34483
+    4RUNNER_TP_RL: 2.34483
+  response: |-
+    7582A10076130A500A5
+    7582A21000000000000
+- expected_values:
     4RUNNER_TP_FL: 2.41379
   response: |-
     7582A10076130A90000
