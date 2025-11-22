@@ -1,0 +1,14 @@
+command_id: 7B0.7B8.2147|f=2007-
+test_cases:
+- expected_values:
+    4RUNNER_LAT_G: -0.06
+    4RUNNER_LNG_G: 0
+    4RUNNER_STEER_ANGLE: 21.7
+    4RUNNER_YAW_RATE: 0
+  response: 7B8076147FD008080D9
+- expected_values:
+    4RUNNER_LAT_G: -0.04
+    4RUNNER_LNG_G: 0.02
+    4RUNNER_STEER_ANGLE: 21.7
+    4RUNNER_YAW_RATE: 0
+  response: 7B8076147FE018080D9
