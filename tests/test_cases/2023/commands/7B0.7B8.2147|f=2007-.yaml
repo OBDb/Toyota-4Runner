@@ -2,6 +2,9 @@ command_id: 7B0.7B8.2147|f=2007-
 test_cases:
 - expected_values:
     4RUNNER_LAT_G: 0
+    4RUNNER_LNG_G: 0
+    4RUNNER_STEER_ANGLE: -234.6
+    4RUNNER_YAW_RATE: -15
   response: 7B807614700007176D6
 - expected_values:
     4RUNNER_LAT_G: 0
@@ -47,4 +50,7 @@ test_cases:
   response: 7B8076147F103586C3E
 - expected_values:
     4RUNNER_LAT_G: -0.02
+    4RUNNER_LNG_G: 0
+    4RUNNER_STEER_ANGLE: -519.3
+    4RUNNER_YAW_RATE: -10
   response: 7B8076147FF00766BB7
