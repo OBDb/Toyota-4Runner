@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     4RUNNER_VSS: 0
   response: 7B803612100
+- expected_values:
+    4RUNNER_VSS: 114.75
+  response: 7B803612155
