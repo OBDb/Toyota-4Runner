@@ -1,6 +1,22 @@
 command_id: 7B0.7B8.2106
 test_cases:
 - expected_values:
+    4RUNNER_YAW_1: -2
+    4RUNNER_YAW_2: -1
+  response: 7B80561067E7FD3
+- expected_values:
+    4RUNNER_YAW_1: -1
+    4RUNNER_YAW_2: -1
+  response: 7B80561067F7FF1
+- expected_values:
+    4RUNNER_YAW_1: -1
+    4RUNNER_YAW_2: 0
+  response: 7B80561067F8000
+- expected_values:
     4RUNNER_YAW_1: 0
-    4RUNNER_YAW_2: 1
-  response: 7B805610680810E
+    4RUNNER_YAW_2: -10
+  response: 7B80561068076DC
+- expected_values:
+    4RUNNER_YAW_1: 33
+    4RUNNER_YAW_2: 16
+  response: 7B8056106A1900E
