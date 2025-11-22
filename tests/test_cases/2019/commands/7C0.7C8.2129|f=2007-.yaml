@@ -1,8 +1,8 @@
 command_id: 7C0.7C8.2129|f=2007-
 test_cases:
 - expected_values:
-    4RUNNER_FLI_VOL: 15.98415
-  response: 7C803612979
+    4RUNNER_FLI_VOL: 15.71995
+  response: 7C803612977
 - expected_values:
     4RUNNER_FLI_VOL: 21
   response: 7C8036129A4
