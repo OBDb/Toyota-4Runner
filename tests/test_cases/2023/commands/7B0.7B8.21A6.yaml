@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     4RUNNER_INSPECTION_MODE: 0
   response: 7B80461A600B0
+- expected_values:
+    4RUNNER_INSPECTION_MODE: 0
+  response: 7B80461A600B1
