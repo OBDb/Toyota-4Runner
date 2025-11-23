@@ -41,7 +41,7 @@
   "signals": [
     {"id": "4RUNNER_VSS", "path": "Movement", "fmt": { "len": 8, "max": 323.85, "mul": 1.35, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2018, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2018], "from": 2020 },
   "signals": [
     {"id": "4RUNNER_STOP_LIGHT_RELAY", "path": "Movement", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light relay"}
   ]},
@@ -87,7 +87,7 @@
     {"id": "4RUNNER_BA_CTRL_STATUS",           "path": "Tires", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake assist status"},
     {"id": "4RUNNER_PBA_CTRL_STATUS",          "path": "Tires", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "offon" }, "name": "Predictive brake assist status"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A6"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2018, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A6"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2018], "from": 2020 },
   "signals": [
     {"id": "4RUNNER_INSPECTION_MODE", "path": "Details", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Inspection mode"}
   ]},
@@ -119,7 +119,7 @@
     {"id": "4RUNNER_AIR_INLET_DAMPER_TARGET_PULSE", "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air inlet damper target pulse"},
     {"id": "4RUNNER_AIR_INLET_DAMPER_ACTUAL_PULSE", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air inlet damper actual pulse"}
   ]},
-{ "hdr": "7C4", "cmd": {"21": "4C"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2018, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7C4", "cmd": {"21": "4C"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2018], "from": 2020 },
   "signals": [
     {"id": "4RUNNER_EVAPORATOR_TARGET_TEMP", "path": "Climate", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "scalar" }, "name": "Evaporator target temperature"}
   ]},
