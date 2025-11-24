@@ -15,7 +15,7 @@
     {"id": "4RUNNER_TP_RR",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
     {"id": "4RUNNER_TP_SPARE", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Spare tire pressure"}
   ]},
-{ "hdr": "780", "rax": "788", "dbg": true, "cmd": {"21": "04"}, "freq": 1,
+{ "hdr": "780", "rax": "788", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "4RUNNER_BUCKLE_RS", "path": "Seatbelts", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "scalar" }, "name": "Buckle switch, right side"},
     {"id": "4RUNNER_BUCKLE_LS", "path": "Seatbelts", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Buckle switch, left side"}
@@ -146,7 +146,7 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2004, "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2016] },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2004, "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013] },
   "signals": [
     {"id": "4RUNNER_CC_S", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"}
   ]},
