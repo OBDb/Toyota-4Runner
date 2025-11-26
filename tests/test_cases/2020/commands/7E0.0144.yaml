@@ -7,6 +7,9 @@ test_cases:
     EQ_RAT: 0.71705
   response: 7E80441445BC8
 - expected_values:
+    EQ_RAT: 0.85618
+  response: 7E80441446D97
+- expected_values:
     EQ_RAT: 0.89042
   response: 7E804414471F9
 - expected_values:
