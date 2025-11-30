@@ -5,8 +5,15 @@ test_cases:
     4RUNNER_ZP_DEC2: -25.11
     4RUNNER_ZP_YAW: 0
   response: |-
+    7B8100961460000807F
+    7B821FBFF0200000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
     7B81009614600008080
-    7B82100FF0C00000000
+    7B82100FF0200000000
 - expected_values:
     4RUNNER_ZP_DEC: -25.11
     4RUNNER_ZP_DEC2: -25.11
@@ -28,10 +35,3 @@ test_cases:
   response: |-
     7B81009614600008080
     7B8210FFF0100000000
-- expected_values:
-    4RUNNER_ZP_DEC: -25.11
-    4RUNNER_ZP_DEC2: -25.11
-    4RUNNER_ZP_YAW: 0
-  response: |-
-    7B81009614600008080
-    7B82115FF0100000000
