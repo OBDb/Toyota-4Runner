@@ -1,0 +1,37 @@
+command_id: 7B0.7B8.2146
+test_cases:
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B81009614600008080
+    7B82100FF0C00000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B81009614600008080
+    7B82105FF0E00000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B81009614600008080
+    7B82106FF0100000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B81009614600008080
+    7B8210FFF0100000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B81009614600008080
+    7B82115FF0100000000
