@@ -7,7 +7,7 @@
     {"id": "4RUNNER_TT_RR",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"},
     {"id": "4RUNNER_TT_SPARE", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Spare tire temperature"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"21": "30"}, "freq": 2.5, "filter": { "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2006, 2007, 2008, 2009, 2010, 2012, 2013, 2014, 2018, 2020], "from": 2022 }, "dbgfilter": { "from": 2024 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"21": "30"}, "freq": 2.5, "filter": { "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2006, 2007, 2008, 2009, 2010, 2012, 2013, 2014, 2018, 2020], "from": 2022 }, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "4RUNNER_TP_FL",    "path": "Tires", "fmt": {           "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
     {"id": "4RUNNER_TP_FR",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
@@ -15,7 +15,7 @@
     {"id": "4RUNNER_TP_RR",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
     {"id": "4RUNNER_TP_SPARE", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 3.8, "div": 58, "add": -0.5, "nullmin": 0, "unit": "bars" }, "name": "Spare tire pressure"}
   ]},
-{ "hdr": "780", "rax": "788", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2017, 2021, 2022], "from": 2024 },
+{ "hdr": "780", "rax": "788", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2017, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_BUCKLE_RS", "path": "Seatbelts", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "scalar" }, "name": "Buckle switch, right side"},
     {"id": "4RUNNER_BUCKLE_LS", "path": "Seatbelts", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Buckle switch, left side"}
@@ -27,17 +27,17 @@
     {"id": "4RUNNER_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "4RUNNER_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "06"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "06"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_YAW_1", "path": "Orientation", "fmt": {          "len": 8, "max": 127, "min": -128, "add": -128, "unit": "scalar" }, "name": "Yaw rate, sensor 1"},
     {"id": "4RUNNER_YAW_2", "path": "Orientation", "fmt": {"bix": 8, "len": 8, "max": 127, "min": -128, "add": -128, "unit": "scalar" }, "name": "Yaw rate, sensor 2"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1D"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1D"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_RESERVOIR_WARNING_SW", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Reservoir warning"},
     {"id": "4RUNNER_MAIN_IDLE_SW",         "path": "Control", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Main idle"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_STOP_LIGHT_SW",    "path": "Control", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light"},
     {"id": "4RUNNER_PARKING_BRAKE_SW", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
@@ -46,11 +46,11 @@
   "signals": [
     {"id": "4RUNNER_VSS", "path": "Movement", "fmt": { "len": 8, "max": 323.85, "mul": 1.35, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_STOP_LIGHT_RELAY", "path": "Movement", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light relay"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_ABS_WARN",   "path": "Control", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "ABS warning light"},
     {"id": "4RUNNER_BRAKE_WARN", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake warning light"},
@@ -58,7 +58,7 @@
     {"id": "4RUNNER_BUZZER",     "path": "Control", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "Buzzer"},
     {"id": "4RUNNER_ECB_WARN",   "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "ECB warning light"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "46"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "46"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_ZP_DEC",  "path": "Orientation", "fmt": {           "len": 8, "max": 24.91, "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration"},
     {"id": "4RUNNER_ZP_DEC2", "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 24.91, "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration 2"},
@@ -71,7 +71,7 @@
     {"id": "4RUNNER_YAW_RATE",    "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,  "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate value (degrees/sec)"},
     {"id": "4RUNNER_STEER_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering wheel angle",         "description": "Positive = counter-clockwise, negative = clockwise."}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5A"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5A"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_TRC_TRAC__CTRL",        "path": "Tires", "fmt": {           "len": 1, "max": 1, "unit": "offon" }, "name": "Traction control, status"},
     {"id": "4RUNNER_TRC_TRAC__ENGINE_CTRL", "path": "Tires", "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "offon" }, "name": "Traction control, engine status"},
@@ -81,7 +81,7 @@
     {"id": "4RUNNER_RR_WHEEL_VSC_CTRL",     "path": "Tires", "fmt": {"bix": 10, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear right wheel vehicle stability control status"},
     {"id": "4RUNNER_RL_WHEEL_VSC_CTRL",     "path": "Tires", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear left wheel vehicle stability control status"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_FR_WHEEL_ABS_CTRL", "path": "Tires", "fmt": {           "len": 1, "max": 1, "unit": "offon" }, "name": "Front right wheel ABS status"},
     {"id": "4RUNNER_FL_WHEEL_ABS_CTRL", "path": "Tires", "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "offon" }, "name": "Front left wheel ABS status"},
@@ -92,11 +92,11 @@
     {"id": "4RUNNER_BA_CTRL_STATUS",    "path": "Tires", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake assist status"},
     {"id": "4RUNNER_PBA_CTRL_STATUS",   "path": "Tires", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "offon" }, "name": "Predictive brake assist status"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A6"}, "freq": 60, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A6"}, "freq": 60, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_INSPECTION_MODE", "path": "Details", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Inspection mode"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BE"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BE"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_FR_WHEEL_SPEED_OPEN",    "path": "Movement",    "fmt": {           "len": 1, "max": 1, "unit": "noyes" }, "name": "Front right wheel speed?"},
     {"id": "4RUNNER_FL_WHEEL_SPEED_OPEN",    "path": "Movement",    "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "noyes" }, "name": "Front left wheel speed?"},
@@ -114,17 +114,17 @@
   "signals": [
     {"id": "4RUNNER_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 21, "mul": 500, "div": 3785, "unit": "gallons" }, "name": "Fuel level (volume)", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7C4", "cmd": {"21": "43"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7C4", "cmd": {"21": "43"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_AIR_OUTLET_SERVO_PULSE_D",      "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air outlet servo pulse, driver"},
     {"id": "4RUNNER_AIR_OUTLET_SERVO_ACTU_PULSE_D", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air outlet servo actual pulse, driver"}
   ]},
-{ "hdr": "7C4", "cmd": {"21": "44"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7C4", "cmd": {"21": "44"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_AIR_INLET_DAMPER_TARGET_PULSE", "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air inlet damper target pulse"},
     {"id": "4RUNNER_AIR_INLET_DAMPER_ACTUAL_PULSE", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air inlet damper actual pulse"}
   ]},
-{ "hdr": "7C4", "cmd": {"21": "4C"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2024 },
+{ "hdr": "7C4", "cmd": {"21": "4C"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2021, 2022], "from": 2025 },
   "signals": [
     {"id": "4RUNNER_EVAP_TARGET_T", "path": "Climate", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "scalar" }, "name": "Evaporator target temperature"}
   ]},
