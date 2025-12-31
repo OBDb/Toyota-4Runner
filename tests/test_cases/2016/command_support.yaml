@@ -24,6 +24,7 @@ supported_commands_by_ecu:
   - 7C4.214C:4RUNNER_EVAP_TARGET_T
   "7DF":
   - 7DF.0104
+  - 7DF.0105
   - 7DF.0110
   - 7DF.0131
   - 7DF.0144
