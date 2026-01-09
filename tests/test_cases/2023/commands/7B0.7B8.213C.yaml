@@ -1,5 +1,0 @@
-command_id: 7B0.7B8.213C
-test_cases:
-- expected_values:
-    4RUNNER_STOP_LIGHT_RELAY: 0
-  response: 7B803613C00
