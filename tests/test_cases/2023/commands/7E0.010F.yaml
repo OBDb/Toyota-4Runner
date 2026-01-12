@@ -1,8 +1,8 @@
 command_id: 7E0.010F
 test_cases:
 - expected_values:
-    IAT: 19
-  response: 7E803410F3B
+    IAT: 9
+  response: 7E803410F31
 - expected_values:
     IAT: 73
   response: 7E803410F71
