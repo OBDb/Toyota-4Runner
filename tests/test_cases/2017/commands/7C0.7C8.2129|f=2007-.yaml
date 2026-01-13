@@ -14,5 +14,5 @@ test_cases:
     7C803612984
     7C803612984
 - expected_values:
-    4RUNNER_FLI_VOL: 18.62616
-  response: 7C80361298D
+    4RUNNER_FLI_VOL: 21
+  response: 7C8036129A5
