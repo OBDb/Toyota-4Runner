@@ -16,3 +16,11 @@ test_cases:
     4RUNNER_GEAR: 5
     4RUNNER_TQC_LOCKUP: 0
   response: '7E8056185050010'
+- expected_values:
+    4RUNNER_GEAR: 1
+    4RUNNER_TQC_LOCKUP: 0
+  response: '7E806616185010010'
+- expected_values:
+    4RUNNER_GEAR: 5
+    4RUNNER_TQC_LOCKUP: 0
+  response: '7E806616185050010'
