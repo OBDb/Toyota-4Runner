@@ -1,0 +1,32 @@
+command_id: 7B0.7B8.2121|f=2007-
+test_cases:
+- expected_values:
+    4RUNNER_VSS: 0
+  response: 7B803612100
+- expected_values:
+    4RUNNER_VSS: 4.05
+  response: 7B803612103
+- expected_values:
+    4RUNNER_VSS: 6.75
+  response: 7B803612105
+- expected_values:
+    4RUNNER_VSS: 8.1
+  response: 7B803612106
+- expected_values:
+    4RUNNER_VSS: 13.5
+  response: 7B80361210A
+- expected_values:
+    4RUNNER_VSS: 16.2
+  response: 7B80361210C
+- expected_values:
+    4RUNNER_VSS: 17.55
+  response: 7B80361210D
+- expected_values:
+    4RUNNER_VSS: 18.9
+  response: 7B80361210E
+- expected_values:
+    4RUNNER_VSS: 20.25
+  response: 7B80361210F
+- expected_values:
+    4RUNNER_VSS: 24.3
+  response: 7B803612112
