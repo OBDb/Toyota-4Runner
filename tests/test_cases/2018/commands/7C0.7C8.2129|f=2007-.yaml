@@ -11,3 +11,8 @@ test_cases:
 - expected_values:
     4RUNNER_FLI_VOL: 21
   response: 7C8036129A5
+- expected_values:
+    4RUNNER_FLI_VOL: 21
+  response: |-
+    7C8036129A5
+    7C8036129A5
