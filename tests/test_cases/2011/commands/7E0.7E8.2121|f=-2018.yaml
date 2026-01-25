@@ -5,7 +5,10 @@ test_cases:
   response: '7E80761210000000000'
 - expected_values:
     4RUNNER_CC_S: 0
-  response: 7E807612100000080E0
+  response: 7E807612100000000E0
 - expected_values:
     4RUNNER_CC_S: 0
-  response: 7E80761214D00008000
+  response: '7E80761210000008000'
+- expected_values:
+    4RUNNER_CC_S: 0
+  response: '7E80761219600008000'
