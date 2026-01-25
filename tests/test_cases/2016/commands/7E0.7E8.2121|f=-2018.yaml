@@ -7,14 +7,11 @@ test_cases:
     4RUNNER_CC_S: 0
   response: 7E807612100000000E0
 - expected_values:
-    4RUNNER_CC_S: 80
-  response: 7E8076121505011FC00
+    4RUNNER_CC_S: 43
+  response: 7E80761212B2B01FC00
 - expected_values:
-    4RUNNER_CC_S: 124
-  response: 7E80761216E7C00BC00
-- expected_values:
-    4RUNNER_CC_S: 121
-  response: 7E8076121797942FC00
+    4RUNNER_CC_S: 105
+  response: 7E8076121686939FC00
 - expected_values:
     4RUNNER_CC_S: 121
-  response: 7E8076121827900BC00
+  response: 7E8076121797919FC00
