@@ -1,0 +1,29 @@
+command_id: 7C4.214C
+test_cases:
+- expected_values:
+    4RUNNER_EVAP_TARGET_T: 1.5
+  response: 7CC04614C8096
+- expected_values:
+    4RUNNER_EVAP_TARGET_T: 1.52
+  response: 7CC04614C8098
+- expected_values:
+    4RUNNER_EVAP_TARGET_T: 1.65
+  response: 7CC04614C80A5
+- expected_values:
+    4RUNNER_EVAP_TARGET_T: 1.82
+  response: 7CC04614C80B6
+- expected_values:
+    4RUNNER_EVAP_TARGET_T: 1.89
+  response: 7CC04614C80BD
+- expected_values:
+    4RUNNER_EVAP_TARGET_T: 2.03
+  response: 7CC04614C80CB
+- expected_values:
+    4RUNNER_EVAP_TARGET_T: 2.16
+  response: 7CC04614C80D8
+- expected_values:
+    4RUNNER_EVAP_TARGET_T: 2.29
+  response: 7CC04614C80E5
+- expected_values:
+    4RUNNER_EVAP_TARGET_T: 2.43
+  response: 7CC04614C80F3
