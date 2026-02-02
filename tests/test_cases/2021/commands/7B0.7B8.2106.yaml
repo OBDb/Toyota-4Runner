@@ -5,10 +5,18 @@ test_cases:
     4RUNNER_YAW_2: -10
   response: 7B80561066B76EB
 - expected_values:
+    4RUNNER_YAW_1: -1
+    4RUNNER_YAW_2: -1
+  response: 7B80561067F7FF1
+- expected_values:
     4RUNNER_YAW_1: 0
     4RUNNER_YAW_2: 0
   response: 7B8056106808000
 - expected_values:
-    4RUNNER_YAW_1: 0
-    4RUNNER_YAW_2: 0
-  response: 7B805610680802D
+    4RUNNER_YAW_1: 11
+    4RUNNER_YAW_2: 5
+  response: 7B80561068B85AF
+- expected_values:
+    4RUNNER_YAW_1: 12
+    4RUNNER_YAW_2: 3
+  response: 7B80561068C8339
