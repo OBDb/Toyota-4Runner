@@ -4,29 +4,14 @@ test_cases:
     4RUNNER_ODO: 28707
   response: '7E8056128007023'
 - expected_values:
+    4RUNNER_ODO: 74369
+  response: '7E8056128012281'
+- expected_values:
     4RUNNER_ODO: 99584
   response: '7E8056128018500'
 - expected_values:
-    4RUNNER_ODO: 99590
-  response: '7E8056128018506'
-- expected_values:
-    4RUNNER_ODO: 99592
-  response: '7E8056128018508'
-- expected_values:
     4RUNNER_ODO: 100612
   response: '7E8056128018904'
-- expected_values:
-    4RUNNER_ODO: 100657
-  response: '7E8056128018931'
-- expected_values:
-    4RUNNER_ODO: 100662
-  response: '7E8056128018936'
-- expected_values:
-    4RUNNER_ODO: 100688
-  response: '7E8056128018950'
-- expected_values:
-    4RUNNER_ODO: 100744
-  response: '7E8056128018988'
 - expected_values:
     4RUNNER_ODO: 100746
   response: 7E805612801898A

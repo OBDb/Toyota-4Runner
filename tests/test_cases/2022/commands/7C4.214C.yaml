@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     4RUNNER_EVAP_TARGET_T: 2.43
   response: 7CC04614C80F3
+- expected_values:
+    4RUNNER_EVAP_TARGET_T: 3
+  response: 7CC04614C812C
