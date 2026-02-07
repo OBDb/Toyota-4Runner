@@ -5,13 +5,13 @@ test_cases:
     4RUNNER_ATF_TQC_T: 6.875
   response: 7E80661822C602EE0
 - expected_values:
+    4RUNNER_ATF_PAN_T: 5
+    4RUNNER_ATF_TQC_T: 7.5
+  response: 7E80661822D002F80
+- expected_values:
     4RUNNER_ATF_PAN_T: 8.125
     4RUNNER_ATF_TQC_T: 15
   response: '7E806618230203700'
-- expected_values:
-    4RUNNER_ATF_PAN_T: 10
-    4RUNNER_ATF_TQC_T: 21.25
-  response: 7E806618232003D40
 - expected_values:
     4RUNNER_ATF_PAN_T: 11.875
     4RUNNER_ATF_TQC_T: 17.5
