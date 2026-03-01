@@ -67,6 +67,7 @@ supported_commands_by_ecu:
   - 7E0.010D:VSS
   - 7E0.0110:MAF
   - 7E0.0111:TP
+  - 7E0.011F:RUNTM
   - 7E0.0124:LAMBDA11_VOLT,O2S11_VOLT
   - 7E0.012F:FLI
   - 7E0.0131:CLR_DIST
