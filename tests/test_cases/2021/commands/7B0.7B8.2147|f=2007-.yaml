@@ -3,6 +3,12 @@ test_cases:
 - expected_values:
     4RUNNER_LAT_G: 0
     4RUNNER_LNG_G: 0
+    4RUNNER_STEER_ANGLE: -0.5
+    4RUNNER_YAW_RATE: -1
+  response: 7B807614700007F7FFB
+- expected_values:
+    4RUNNER_LAT_G: 0
+    4RUNNER_LNG_G: 0
     4RUNNER_STEER_ANGLE: 1.5
     4RUNNER_YAW_RATE: 0
   response: 7B8076147000080800F
@@ -24,12 +30,6 @@ test_cases:
     4RUNNER_STEER_ANGLE: 2
     4RUNNER_YAW_RATE: 0
   response: 7B807614700FE808014
-- expected_values:
-    4RUNNER_LAT_G: -0.04
-    4RUNNER_LNG_G: 0
-    4RUNNER_STEER_ANGLE: -1.3
-    4RUNNER_YAW_RATE: 0
-  response: 7B8076147FE00807FF3
 - expected_values:
     4RUNNER_LAT_G: -0.02
     4RUNNER_LNG_G: 0.04
