@@ -4,5 +4,8 @@ test_cases:
     4RUNNER_EVAP_TARGET_T: 1.5
   response: 7CC04614C8096
 - expected_values:
+    4RUNNER_EVAP_TARGET_T: 2.57
+  response: 7CC04614C8101
+- expected_values:
     4RUNNER_EVAP_TARGET_T: 3
   response: 7CC04614C812C
