@@ -1,0 +1,10 @@
+command_id: 750.758.2116|e=2A,fc=1,f=2020-
+test_cases:
+- expected_values:
+    4RUNNER_TT_FL: 10
+    4RUNNER_TT_FR: 9
+    4RUNNER_TT_RL: 8
+    4RUNNER_TT_RR: 8
+  response: |-
+    7582A10076116323130
+    7582A21300000000000
