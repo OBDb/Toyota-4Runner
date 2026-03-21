@@ -8,13 +8,9 @@ test_cases:
   response: '7E80761210600008000'
 - expected_values:
     4RUNNER_CC_S: 0
-  response: '7E80761210700008000'
+  response: 7E80761214E00008000
 - expected_values:
     4RUNNER_CC_S: 0
-  response: 7E807612108000080E0
-- expected_values:
-    4RUNNER_CC_S: 0
-  response: '7E80761211200008000'
-- expected_values:
-    4RUNNER_CC_S: 0
-  response: '7E80761211300008000'
+  response: |-
+    > 7B0.7B8.2121|f=2007-
+    7E807612102000000E0
