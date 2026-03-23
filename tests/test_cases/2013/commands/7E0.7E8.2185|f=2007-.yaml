@@ -7,12 +7,28 @@ test_cases:
 - expected_values:
     4RUNNER_GEAR: 1
     4RUNNER_TQC_LOCKUP: 0
+  response: '7E80561850100100000'
+- expected_values:
+    4RUNNER_GEAR: 1
+    4RUNNER_TQC_LOCKUP: 0
   response: '7E8056185010018'
 - expected_values:
     4RUNNER_GEAR: 2
     4RUNNER_TQC_LOCKUP: 0
   response: '7E8056185020010'
 - expected_values:
+    4RUNNER_GEAR: 2
+    4RUNNER_TQC_LOCKUP: 0
+  response: '7E80561850200100000'
+- expected_values:
     4RUNNER_GEAR: 3
     4RUNNER_TQC_LOCKUP: 0
   response: '7E8056185030010'
+- expected_values:
+    4RUNNER_GEAR: 4
+    4RUNNER_TQC_LOCKUP: 0
+  response: '7E80561850400100000'
+- expected_values:
+    4RUNNER_GEAR: 5
+    4RUNNER_TQC_LOCKUP: 0
+  response: '7E80561850500100000'
