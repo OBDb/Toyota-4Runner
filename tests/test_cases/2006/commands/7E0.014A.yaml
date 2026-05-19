@@ -1,0 +1,5 @@
+command_id: 7E0.014A
+test_cases:
+- expected_values:
+    APP_E: 31.76471
+  response: 7E803414A51

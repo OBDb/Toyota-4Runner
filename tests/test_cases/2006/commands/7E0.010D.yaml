@@ -1,0 +1,14 @@
+command_id: 7E0.010D
+test_cases:
+- expected_values:
+    VSS: 0
+  response: 7E803410D00
+- expected_values:
+    VSS: 4
+  response: 7E803410D04
+- expected_values:
+    VSS: 11
+  response: 7E803410D0B
+- expected_values:
+    VSS: 25
+  response: 7E803410D19

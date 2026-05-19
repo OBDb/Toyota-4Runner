@@ -1,0 +1,32 @@
+command_id: 7D0.7D8.2162|f=2007-
+test_cases:
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'OFF'
+  response: 7D8056162090000
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'OFF'
+  response: 7D8056162090900
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'OFF'
+  response: 7D8056162091100
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'OFF'
+  response: 7D8056162091300
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'OFF'
+  response: 7D8056162091800
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'OFF'
+  response: 7D8056162091B00
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'OFF'
+  response: 7D8056162091D00
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'OFF'
+  response: 7D8056162092000
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'OFF'
+  response: 7D8056162092100
+- expected_values:
+    4RUNNER_PARKING_BRAKE: 'OFF'
+  response: 7D8056162092600

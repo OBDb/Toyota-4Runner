@@ -1,0 +1,9 @@
+command_id: 7B0.7B8.2146
+test_cases:
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B81009614600008080
+    7B8211EFF0900000000

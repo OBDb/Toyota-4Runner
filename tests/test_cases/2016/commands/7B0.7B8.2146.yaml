@@ -1,0 +1,65 @@
+command_id: 7B0.7B8.2146
+test_cases:
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821E0FF0700000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821E7FF0700000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821EAFF0700000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821EBFF0700000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821ECFF0700000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821EDFF0700000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821EEFF0700000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821F0FF0700000000
+- expected_values:
+    4RUNNER_ZP_DEC: -25.11
+    4RUNNER_ZP_DEC2: -25.11
+    4RUNNER_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821F3FF0700000000
