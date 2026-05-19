@@ -1,0 +1,18 @@
+command_id: 7B0.7B8.211F
+test_cases:
+- expected_values:
+    4RUNNER_PARKING_BRAKE_SW: 0
+    4RUNNER_STOP_LIGHT_SW: 0
+  response: 7B805611F000000
+- expected_values:
+    4RUNNER_PARKING_BRAKE_SW: 1
+    4RUNNER_STOP_LIGHT_SW: 0
+  response: 7B805611F400000
+- expected_values:
+    4RUNNER_PARKING_BRAKE_SW: 0
+    4RUNNER_STOP_LIGHT_SW: 1
+  response: 7B805611F802000
+- expected_values:
+    4RUNNER_PARKING_BRAKE_SW: 1
+    4RUNNER_STOP_LIGHT_SW: 1
+  response: 7B805611FC02000

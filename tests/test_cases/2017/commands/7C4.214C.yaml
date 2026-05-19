@@ -1,0 +1,5 @@
+command_id: 7C4.214C
+test_cases:
+- expected_values:
+    4RUNNER_EVAP_TARGET_T: 3
+  response: 7CC04614C812C
