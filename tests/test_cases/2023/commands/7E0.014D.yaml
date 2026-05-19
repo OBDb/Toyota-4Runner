@@ -1,0 +1,5 @@
+command_id: 7E0.014D
+test_cases:
+- expected_values:
+    MIL_TIME: 0
+  response: 7E804414D0000
