@@ -56,8 +56,11 @@ supported_commands_by_ecu:
   - 0145:TP_R
   - 0146:AAT
   - 0147:TP_B
+  "7E1":
+  - 7E1.7E9.010D
   "7E2":
   - 7E2.7EA.0105
+  - 7E2.7EA.015B
 unsupported_commands_by_ecu:
   "750":
   - '750.2116'
@@ -121,7 +124,6 @@ unsupported_commands_by_ecu:
   - 7E1.7E9.0101
   - 7E1.7E9.0104
   - 7E1.7E9.0105
-  - 7E1.7E9.010D
   - 7E1.7E9.0111
   - 7E1.7E9.011F
   - 7E1.7E9.0121
@@ -136,7 +138,6 @@ unsupported_commands_by_ecu:
   - 7E2.7EA.010D
   - 7E2.7EA.0111
   - 7E2.7EA.0131
-  - 7E2.7EA.015B
   "7E5":
   - 7E5.7ED.0104
   - 7E5.7ED.0105
