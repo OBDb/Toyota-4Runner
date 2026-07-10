@@ -1,0 +1,5 @@
+command_id: 7B0.7B8.21A6
+test_cases:
+- expected_values:
+    4RUNNER_INSPECTION_MODE: 0
+  response: 7B80461A600FF

@@ -1,0 +1,6 @@
+command_id: 7B0.7B8.2106
+test_cases:
+- expected_values:
+    4RUNNER_YAW_1: 2
+    4RUNNER_YAW_2: -8
+  response: 7B80561068278DA
