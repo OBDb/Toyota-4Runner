@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2128
+test_cases:
+- expected_values:
+    4RUNNER_ODO: 8176995
+  response: 7E80661287CC56377
+- expected_values:
+    4RUNNER_ODO: 8329063
+  response: 7E80661287F17670F
+- expected_values:
+    4RUNNER_ODO: 8384104
+  response: 7E80661287FEE68F9
+- expected_values:
+    4RUNNER_ODO: 8387433
+  response: 7E80661287FFB69AD
+- expected_values:
+    4RUNNER_ODO: 8553580
+  response: 7E806612882846C91
+- expected_values:
+    4RUNNER_ODO: 8604010
+  response: 7E806612883496AE3
