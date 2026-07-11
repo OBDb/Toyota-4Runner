@@ -9,9 +9,9 @@ test_cases:
     4RUNNER_YAW_2: -18
   response: 7B80561067B6E30
 - expected_values:
-    4RUNNER_YAW_1: 0
+    4RUNNER_YAW_1: -1
     4RUNNER_YAW_2: 0
-  response: 7B8056106808000
+  response: 7B80561067F8000
 - expected_values:
     4RUNNER_YAW_1: 3
     4RUNNER_YAW_2: 4
