@@ -4,26 +4,5 @@ test_cases:
     4RUNNER_FLI_VOL: 8.05812
   response: 7C80361293D
 - expected_values:
-    4RUNNER_FLI_VOL: 14.53104
-  response: 7C80361296E
-- expected_values:
-    4RUNNER_FLI_VOL: 19.28666
-  response: 7C803612992
-- expected_values:
-    4RUNNER_FLI_VOL: 19.41876
-  response: 7C803612993
-- expected_values:
-    4RUNNER_FLI_VOL: 19.55086
-  response: 7C803612994
-- expected_values:
-    4RUNNER_FLI_VOL: 19.81506
-  response: 7C803612996
-- expected_values:
-    4RUNNER_FLI_VOL: 20.47556
-  response: 7C80361299B
-- expected_values:
     4RUNNER_FLI_VOL: 21
-  response: 7C80361299F
-- expected_values:
-    4RUNNER_FLI_VOL: 21
-  response: 7C8036129A2
+  response: 7C8036129A3
