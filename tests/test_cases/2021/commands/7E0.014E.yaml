@@ -4,5 +4,8 @@ test_cases:
     CLR_TIME: 2684
   response: 7E804414E0A7C
 - expected_values:
+    CLR_TIME: 43152
+  response: 7E804414EA890
+- expected_values:
     CLR_TIME: 65535
   response: 7E804414EFFFF
