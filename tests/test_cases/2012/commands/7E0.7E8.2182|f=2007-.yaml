@@ -13,17 +13,25 @@ test_cases:
     4RUNNER_ATF_TQC_T: 25
   response: '7E806618241004100'
 - expected_values:
-    4RUNNER_ATF_PAN_T: 65.625
-    4RUNNER_ATF_TQC_T: 66.875
-  response: 7E806618269A06AE000
+    4RUNNER_ATF_PAN_T: 45
+    4RUNNER_ATF_TQC_T: 46.25
+  response: '7E80661825500564000'
+- expected_values:
+    4RUNNER_ATF_PAN_T: 46.25
+    4RUNNER_ATF_TQC_T: 46.875
+  response: 7E8066182564056E000
+- expected_values:
+    4RUNNER_ATF_PAN_T: 46.875
+    4RUNNER_ATF_TQC_T: 48.75
+  response: 7E806618256E058C000
+- expected_values:
+    4RUNNER_ATF_PAN_T: 54.375
+    4RUNNER_ATF_TQC_T: 60
+  response: 7E80661825E60640000
 - expected_values:
     4RUNNER_ATF_PAN_T: 66.25
     4RUNNER_ATF_TQC_T: 66.875
   response: 7E80661826A406AE000
-- expected_values:
-    4RUNNER_ATF_PAN_T: 66.25
-    4RUNNER_ATF_TQC_T: 70
-  response: 7E80661826A406E0000
 - expected_values:
     4RUNNER_ATF_PAN_T: 66.875
     4RUNNER_ATF_TQC_T: 74.375
