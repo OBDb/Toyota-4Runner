@@ -77,4 +77,4 @@ unsupported_commands_by_ecu:
   "7D0":
   - 7D0.7D8.2162|f=2007-:4RUNNER_PARKING_BRAKE
   "7E0":
-  - 7E0.7E8.2128:4RUNNER_ODO
+  - 7E0.7E8.2128|f=2010-:4RUNNER_ODO

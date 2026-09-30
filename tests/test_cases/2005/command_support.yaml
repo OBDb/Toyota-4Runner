@@ -35,7 +35,7 @@ supported_commands_by_ecu:
   - 7E0.0131:CLR_DIST
   - 7E0.0142:VPWR
   - 7E0.7E8.2121|f=-2018:4RUNNER_CC_S
-  - 7E0.7E8.2128:4RUNNER_ODO
+  - 7E0.7E8.2128
 unsupported_commands_by_ecu:
   "6F1":
   - 6F1.60D.22D240
