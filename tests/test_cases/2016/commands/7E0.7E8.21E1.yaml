@@ -1,0 +1,12 @@
+command_id: 7E0.7E8.21E1
+test_cases:
+- expected_values:
+    4RUNNER_CODES_INCLUDE: 1
+  response: |-
+    7E8100A61E101014FDE
+    7E821000004C2000000
+- expected_values:
+    4RUNNER_CODES_INCLUDE: 1
+  response: |-
+    7E8100A61E101014FDF
+    7E82100000863000000

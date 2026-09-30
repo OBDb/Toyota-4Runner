@@ -1,0 +1,26 @@
+command_id: 7C0.7C8.2113
+test_cases:
+- expected_values:
+    4RUNNER_BAT_V: 13.3
+  response: 7C803611385
+- expected_values:
+    4RUNNER_BAT_V: 13.8
+  response: 7C80361138A
+- expected_values:
+    4RUNNER_BAT_V: 13.9
+  response: 7C80361138B
+- expected_values:
+    4RUNNER_BAT_V: 14
+  response: 7C80361138C
+- expected_values:
+    4RUNNER_BAT_V: 14.1
+  response: 7C80361138D
+- expected_values:
+    4RUNNER_BAT_V: 14.2
+  response: 7C80361138E
+- expected_values:
+    4RUNNER_BAT_V: 14.3
+  response: 7C80361138F
+- expected_values:
+    4RUNNER_BAT_V: 14.4
+  response: 7C803611390
