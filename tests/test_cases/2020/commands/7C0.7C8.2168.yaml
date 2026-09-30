@@ -1,0 +1,5 @@
+command_id: 7C0.7C8.2168
+test_cases:
+- expected_values:
+    4RUNNER_RHEOSTAT: 250
+  response: 7C8036168FA
