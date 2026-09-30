@@ -87,7 +87,7 @@ unsupported_commands_by_ecu:
   - 7D2.7DA.221F0D
   "7E0":
   - 7E0.7E8.2121|f=-2018:4RUNNER_CC_S
-  - 7E0.7E8.2128:4RUNNER_ODO
+  - 7E0.7E8.2128
   - 7E0.7E8.2151
   - 7E0.7E8.2182
   - 7E0.7E8.2185
