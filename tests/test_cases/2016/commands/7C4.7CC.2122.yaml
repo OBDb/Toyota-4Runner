@@ -1,0 +1,23 @@
+command_id: 7C4.7CC.2122
+test_cases:
+- expected_values:
+    4RUNNER_AAT_7C4: 29.55
+  response: 7CC03612297
+- expected_values:
+    4RUNNER_AAT_7C4: 29.9
+  response: 7CC03612298
+- expected_values:
+    4RUNNER_AAT_7C4: 30.25
+  response: 7CC03612299
+- expected_values:
+    4RUNNER_AAT_7C4: 31.3
+  response: 7CC0361229C
+- expected_values:
+    4RUNNER_AAT_7C4: 31.65
+  response: 7CC0361229D
+- expected_values:
+    4RUNNER_AAT_7C4: 32.35
+  response: 7CC0361229F
+- expected_values:
+    4RUNNER_AAT_7C4: 33.4
+  response: 7CC036122A2
