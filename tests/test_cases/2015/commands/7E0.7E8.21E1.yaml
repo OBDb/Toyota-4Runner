@@ -5,3 +5,8 @@ test_cases:
   response: |-
     7E8100A61E1000141F5
     7E8210000085E000000
+- expected_values:
+    4RUNNER_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E1000141F6
+    7E821000003EF000000
