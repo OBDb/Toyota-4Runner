@@ -4,23 +4,5 @@ test_cases:
     4RUNNER_ADJUSTED_AMBIENT_T: 27.44
   response: 7CC03613DB6
 - expected_values:
-    4RUNNER_ADJUSTED_AMBIENT_T: 27.76
-  response: 7CC03613DB7
-- expected_values:
-    4RUNNER_ADJUSTED_AMBIENT_T: 28.08
-  response: 7CC03613DB8
-- expected_values:
-    4RUNNER_ADJUSTED_AMBIENT_T: 28.4
-  response: 7CC03613DB9
-- expected_values:
-    4RUNNER_ADJUSTED_AMBIENT_T: 28.72
-  response: 7CC03613DBA
-- expected_values:
-    4RUNNER_ADJUSTED_AMBIENT_T: 29.04
-  response: 7CC03613DBB
-- expected_values:
-    4RUNNER_ADJUSTED_AMBIENT_T: 29.36
-  response: 7CC03613DBC
-- expected_values:
-    4RUNNER_ADJUSTED_AMBIENT_T: 29.68
-  response: 7CC03613DBD
+    4RUNNER_ADJUSTED_AMBIENT_T: 33.52
+  response: 7CC03613DC9
