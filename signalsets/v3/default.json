@@ -1,5 +1,6 @@
 { "ecu": [
-    { "hdr": "7E0", "type": "engine" }
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" }
   ],
   "commands": [
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "0103"}, "freq": 30, "filter": { "from": 2025 },
