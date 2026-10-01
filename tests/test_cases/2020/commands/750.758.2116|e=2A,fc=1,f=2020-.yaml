@@ -1,14 +1,13 @@
 command_id: 750.758.2116|e=2A,fc=1,f=2020-
 test_cases:
 - expected_values:
-    4RUNNER_TT_RR: 31
+    4RUNNER_TT_FL: null
+    4RUNNER_TT_FR: null
+    4RUNNER_TT_RL: null
+    4RUNNER_TT_RR: null
+    4RUNNER_TT_SPARE: null
   response: |-
     7582A10076116000000
-    7582A21470000000000
-- expected_values:
-    4RUNNER_TT_FR: 33
-  response: |-
-    7582A10076116004900
     7582A21000000000000
 - expected_values:
     4RUNNER_TT_FR: 43
