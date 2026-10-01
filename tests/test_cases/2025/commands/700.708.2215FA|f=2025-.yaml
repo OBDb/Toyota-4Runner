@@ -1,0 +1,5 @@
+command_id: 700.708.2215FA|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_ALT_DUTY_CYCLE: 0
+  response: 708056215FA0000

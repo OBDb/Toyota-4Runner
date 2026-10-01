@@ -1,0 +1,32 @@
+command_id: 700.708.221059|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_ACCEL_PEDAL: 0.00024
+  response: |-
+    708100A621059295229
+    7082152000000000000
+- expected_values:
+    4RUNNER_ACCEL_PEDAL: 7.04249
+  response: |-
+    708100A621059335B2A
+    708215203EB00000000
+- expected_values:
+    4RUNNER_ACCEL_PEDAL: 12.6763
+  response: |-
+    708100A6210593B632A
+    708215307E100000000
+- expected_values:
+    4RUNNER_ACCEL_PEDAL: 14.78897
+  response: |-
+    708100A6210593E6629
+    70821520A0F00000000
+- expected_values:
+    4RUNNER_ACCEL_PEDAL: 21.127
+  response: |-
+    708100A621059476F29
+    70821520F4500000000
+- expected_values:
+    4RUNNER_ACCEL_PEDAL: 41.54954
+  response: |-
+    708100A621059648C29
+    70821521F2B00000000

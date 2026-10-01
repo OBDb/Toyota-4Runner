@@ -1,0 +1,20 @@
+command_id: 700.708.22105E|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_ECU_INTERNAL_T: 41
+  response: '7080462105E51'
+- expected_values:
+    4RUNNER_ECU_INTERNAL_T: 42
+  response: '7080462105E52'
+- expected_values:
+    4RUNNER_ECU_INTERNAL_T: 43
+  response: '7080462105E53'
+- expected_values:
+    4RUNNER_ECU_INTERNAL_T: 44
+  response: '7080462105E54'
+- expected_values:
+    4RUNNER_ECU_INTERNAL_T: 45
+  response: '7080462105E55'
+- expected_values:
+    4RUNNER_ECU_INTERNAL_T: 46
+  response: '7080462105E56'

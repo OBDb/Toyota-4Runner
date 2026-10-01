@@ -1,0 +1,70 @@
+command_id: 750.758.221004|e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    4RUNNER_TT_4: 37
+    4RUNNER_TT_5: 41
+  response: |-
+    7582A10086210040000
+    7582A21004D51000000
+- expected_values:
+    4RUNNER_TT_2: 37
+    4RUNNER_TT_3: 41
+    4RUNNER_TT_4: 37
+    4RUNNER_TT_5: 41
+  response: |-
+    7582A1008621004004D
+    7582A21514D51000000
+- expected_values:
+    4RUNNER_TT_1: 33
+    4RUNNER_TT_2: 33
+    4RUNNER_TT_3: 39
+    4RUNNER_TT_4: 34
+    4RUNNER_TT_5: 40
+  response: |-
+    7582A10086210044949
+    7582A214F4A50000000
+- expected_values:
+    4RUNNER_TT_1: 33
+    4RUNNER_TT_2: 34
+    4RUNNER_TT_3: 39
+    4RUNNER_TT_4: 35
+    4RUNNER_TT_5: 39
+  response: |-
+    7582A1008621004494A
+    7582A214F4B4F000000
+- expected_values:
+    4RUNNER_TT_1: 35
+    4RUNNER_TT_2: 38
+    4RUNNER_TT_3: 42
+    4RUNNER_TT_4: 38
+    4RUNNER_TT_5: 42
+  response: |-
+    7582A10086210044B4E
+    7582A21524E52000000
+- expected_values:
+    4RUNNER_TT_1: 35
+    4RUNNER_TT_2: 38
+    4RUNNER_TT_3: 42
+    4RUNNER_TT_4: 39
+    4RUNNER_TT_5: 42
+  response: |-
+    7582A10086210044B4E
+    7582A21524F52000000
+- expected_values:
+    4RUNNER_TT_1: 35
+    4RUNNER_TT_2: 39
+    4RUNNER_TT_3: 42
+    4RUNNER_TT_4: 39
+    4RUNNER_TT_5: 42
+  response: |-
+    7582A10086210044B4F
+    7582A21524F52000000
+- expected_values:
+    4RUNNER_TT_1: 35
+    4RUNNER_TT_2: 39
+    4RUNNER_TT_3: 42
+    4RUNNER_TT_4: 40
+    4RUNNER_TT_5: 42
+  response: |-
+    7582A10086210044B4F
+    7582A21525052000000

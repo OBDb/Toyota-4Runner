@@ -1,0 +1,11 @@
+command_id: 700.708.221071|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_EXHAUST_VVT_TARGET_ANGLE_B1: 0
+  response: '708056210710000'
+- expected_values:
+    4RUNNER_EXHAUST_VVT_TARGET_ANGLE_B1: 39.96507
+  response: 708056210710FFD
+- expected_values:
+    4RUNNER_EXHAUST_VVT_TARGET_ANGLE_B1: 39.99436
+  response: '708056210711000'

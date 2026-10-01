@@ -1,0 +1,23 @@
+command_id: 700.708.221621|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_GEAR_700: 1
+  response: '7080462162101'
+- expected_values:
+    4RUNNER_GEAR_700: 2
+  response: '7080462162102'
+- expected_values:
+    4RUNNER_GEAR_700: 3
+  response: '7080462162103'
+- expected_values:
+    4RUNNER_GEAR_700: 4
+  response: '7080462162104'
+- expected_values:
+    4RUNNER_GEAR_700: 5
+  response: '7080462162105'
+- expected_values:
+    4RUNNER_GEAR_700: 6
+  response: '7080462162106'
+- expected_values:
+    4RUNNER_GEAR_700: 7
+  response: '7080462162107'

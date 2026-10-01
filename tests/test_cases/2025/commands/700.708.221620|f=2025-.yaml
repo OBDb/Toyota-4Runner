@@ -1,0 +1,8 @@
+command_id: 700.708.221620|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_AT_LOCK_UP_STATE: 0
+  response: '7080462162000'
+- expected_values:
+    4RUNNER_AT_LOCK_UP_STATE: 1
+  response: '7080462162001'
