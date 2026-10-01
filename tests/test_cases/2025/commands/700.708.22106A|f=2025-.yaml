@@ -1,0 +1,11 @@
+command_id: 700.708.22106A|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_FUEL_PUMP_DUTY_RATIO: 0
+  response: 7080562106A0000
+- expected_values:
+    4RUNNER_FUEL_PUMP_DUTY_RATIO: 280.67073
+  response: 7080562106A11FB
+- expected_values:
+    4RUNNER_FUEL_PUMP_DUTY_RATIO: 298.71951
+  response: 7080562106A1323

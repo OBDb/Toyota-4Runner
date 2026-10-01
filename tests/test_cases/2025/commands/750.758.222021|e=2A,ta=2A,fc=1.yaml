@@ -1,0 +1,9 @@
+command_id: 750.758.222021|e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    4RUNNER_TID_2: FR
+    4RUNNER_TID_3: FL
+    4RUNNER_TID_4: RR
+  response: |-
+    7582A10086220210502
+    7582A21010403000000

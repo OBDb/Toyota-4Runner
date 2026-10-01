@@ -1,0 +1,11 @@
+command_id: 700.708.221017|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_INJ_VOL: 0
+  response: '708056210170000'
+- expected_values:
+    4RUNNER_INJ_VOL: 2.63906
+  response: 7080562101720FD
+- expected_values:
+    4RUNNER_INJ_VOL: 9.04562
+  response: '708056210177112'

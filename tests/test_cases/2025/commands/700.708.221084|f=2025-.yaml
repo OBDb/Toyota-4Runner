@@ -1,0 +1,8 @@
+command_id: 700.708.221084|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_ROUGH_IDLE_CYL_1: 1
+    4RUNNER_ROUGH_IDLE_CYL_2: 0
+    4RUNNER_ROUGH_IDLE_CYL_3: 15
+    4RUNNER_ROUGH_IDLE_CYL_4: 0
+  response: 7080762108401000F00

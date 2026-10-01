@@ -1,0 +1,20 @@
+command_id: 700.708.221019|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_INJECTION: DIRECT
+  response: '7080762101901288640'
+- expected_values:
+    4RUNNER_INJECTION: BOTH
+  response: 70807621019025D8A5B
+- expected_values:
+    4RUNNER_INJECTION: BOTH
+  response: 7080762101902898B54
+- expected_values:
+    4RUNNER_INJECTION: BOTH
+  response: 7080762101902898B96
+- expected_values:
+    4RUNNER_INJECTION: BOTH
+  response: 7080762101902B78000
+- expected_values:
+    4RUNNER_INJECTION: BOTH
+  response: 7080762101902FD8B54

@@ -1,0 +1,8 @@
+command_id: 700.708.22106F|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_INTAKE_VVT_TARGET_ANGLE_B1: 0
+  response: 7080562106F0000
+- expected_values:
+    4RUNNER_INTAKE_VVT_TARGET_ANGLE_B1: 49.93436
+  response: 7080562106F13FA

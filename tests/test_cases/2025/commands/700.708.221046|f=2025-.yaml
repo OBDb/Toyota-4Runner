@@ -1,0 +1,8 @@
+command_id: 700.708.221046|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_COOLING_FAN_DUTY_RATIO: 0
+  response: '7080462104600'
+- expected_values:
+    4RUNNER_COOLING_FAN_DUTY_RATIO: 54.5
+  response: 708046210466D

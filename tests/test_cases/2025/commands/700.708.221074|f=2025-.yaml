@@ -1,0 +1,11 @@
+command_id: 700.708.221074|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_EOP: 0
+  response: '708056210740000'
+- expected_values:
+    4RUNNER_EOP: 439.53125
+  response: 7080562107415FA
+- expected_values:
+    4RUNNER_EOP: 502.42188
+  response: 70805621074191F

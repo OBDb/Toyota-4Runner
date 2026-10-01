@@ -1,0 +1,14 @@
+command_id: 7B0.7B8.221006
+test_cases:
+- expected_values:
+    4RUNNER_MASTER_CYL_TEMP: 46
+  response: 7B8056210067E00
+- expected_values:
+    4RUNNER_MASTER_CYL_TEMP: 47
+  response: 7B8056210067F00
+- expected_values:
+    4RUNNER_MASTER_CYL_TEMP: 49
+  response: 7B8056210068100
+- expected_values:
+    4RUNNER_MASTER_CYL_TEMP: 50
+  response: 7B8056210068200

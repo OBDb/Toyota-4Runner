@@ -1,0 +1,37 @@
+command_id: 700.708.2210A5|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000000
+    7082100130000000000
+- expected_values:
+    4RUNNER_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000000
+    7082100BF0000000000
+- expected_values:
+    4RUNNER_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000000
+    7082100D00000000000
+- expected_values:
+    4RUNNER_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000039
+    7082100000000000000
+- expected_values:
+    4RUNNER_MISFIRE_CNT: 0
+  response: |-
+    70810086210A50000F2
+    7082100C90000000000
+- expected_values:
+    4RUNNER_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000101
+    7082100940000000000
+- expected_values:
+    4RUNNER_MISFIRE_CNT: 2
+  response: |-
+    70810086210A5020000
+    7082100DB0000000000

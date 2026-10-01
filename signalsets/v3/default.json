@@ -3,23 +3,23 @@
     { "hdr": "7E1", "type": "transmission" }
   ],
   "commands": [
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "0103"}, "freq": 30, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "0103"}, "freq": 30, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_ENG_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1002"}, "freq": 5, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1002"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_12V_V", "path": "Battery", "fmt": { "len": 16, "max": 79, "mul": 12.207, "div": 10000, "unit": "volts" }, "name": "Battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1017"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1017"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_INJ_VOL", "path": "Engine", "fmt": { "len": 16, "max": 20, "div": 3200, "unit": "liters" }, "name": "Injection volume"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1018"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1018"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_INJECTOR_PORT", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "milliseconds" }, "name": "Injector port"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1019"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1019"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_INJECTION", "path": "Engine", "name": "Injection", "fmt": {"len": 8, "map": {
           "1": { "description": "Direct", "value": "DIRECT" },
@@ -27,7 +27,7 @@
         }}
     }
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "102A"}, "freq": 3600, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "102A"}, "freq": 3600, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_A_F_RATIO_LEARNED_IDLE_BANK_1",  "path": "Engine", "fmt": {           "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learned idle, bank 1"},
     {"id": "4RUNNER_A_F_RATIO_LEARNED_LOW_BANK_1",   "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learned low, bank 1"},
@@ -35,7 +35,7 @@
     {"id": "4RUNNER_A_F_RATIO_LEARNED_MID_2_BANK_1", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learned mid 2, bank 1"},
     {"id": "4RUNNER_A_F_RATIO_LEARNED_HIGH_BANK_1",  "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learned high, bank 1"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1041"}, "freq": 5, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1041"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_ECT_IGN",  "path": "Engine", "fmt": {          "len": 8, "max": 119.375, "min": -40, "mul": 62.5, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature, at ignition"},
     {"id": "4RUNNER_ECT_INIT", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 119.375, "min": -40, "mul": 62.5, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature, initial"}
@@ -45,44 +45,44 @@
     {"id": "4RUNNER_EWP_TARGET_VSS", "path": "Engine", "fmt": {          "len": 8, "max": 6375, "mul": 25, "unit": "rpm" }, "name": "Electric water pump target speed"},
     {"id": "4RUNNER_EWP_RPM",        "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 6375, "mul": 25, "unit": "rpm" }, "name": "Electric water pump RPM"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1046"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1046"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_COOLING_FAN_DUTY_RATIO", "path": "Engine", "fmt": { "len": 8, "max": 127.5, "mul": 127.5, "div": 255, "unit": "percent" }, "name": "Cooling fan duty ratio"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1059"}, "freq": 0.25, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1059"}, "freq": 0.25, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_ACCEL_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 1.42, "add": -28.873, "unit": "percent" }, "name": "Accelerator pedal"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "105C"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "105C"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_KNOCK_CORRECT_LEARNED_VALUE", "path": "Engine", "fmt": {           "len": 16, "max": 1023, "min": -1024, "mul": 312.5, "div": 10000, "add": -1024, "unit": "scalar" }, "name": "Knock correction, learned value"},
     {"id": "4RUNNER_KNOCK_FEEDBACK_VALUE",        "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1023, "min": -1024, "mul": 312.5, "div": 10000, "add": -1024, "unit": "scalar" }, "name": "Knock feedback value"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "105E"}, "freq": 5, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "105E"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_ECU_INTERNAL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Internal temperature"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1062"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1062"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_EXHAUST_VVT_OCV_CONTROL_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 400, "mul": 400, "div": 65535, "unit": "percent" }, "name": "Exhaust VVT oil control valve control duty"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "106A"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "106A"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_FUEL_PUMP_DUTY_RATIO", "path": "Fuel", "fmt": { "len": 16, "max": 3996, "mul": 0.0609756098, "unit": "kilopascal" }, "name": "Fuel pump duty ratio"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "106C"}, "freq": 30, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "106C"}, "freq": 30, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_DIST_SINCE_BAT_DISC", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since last battery cable disconnection"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "106F"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "106F"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_INTAKE_VVT_TARGET_ANGLE_B1", "path": "Engine", "fmt": { "len": 16, "max": 639.9, "mul": 639.9, "div": 65535, "unit": "degrees" }, "name": "Intake VVT target angle B1"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1071"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1071"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_EXHAUST_VVT_TARGET_ANGLE_B1", "path": "Engine", "fmt": { "len": 16, "max": 639.9, "mul": 639.9, "div": 65535, "unit": "degrees" }, "name": "Exhaust VVT target angle B1"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1074"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1074"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_EOP", "path": "Engine", "fmt": { "len": 16, "max": 5119.92, "mul": 10, "div": 128, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
@@ -90,41 +90,41 @@
   "signals": [
     {"id": "4RUNNER_IWP_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Intercooler water pump speed, raw count"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1078"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1078"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_IDLE_SAC_CYL_1", "path": "Engine", "fmt": {           "len": 8, "max": 15.9375, "mul": 6.25, "div": 100, "unit": "degrees" }, "name": "Idle spark advance control, cylinder 1"},
     {"id": "4RUNNER_IDLE_SAC_CYL_2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 15.9375, "mul": 6.25, "div": 100, "unit": "degrees" }, "name": "Idle spark advance control, cylinder 2"},
     {"id": "4RUNNER_IDLE_SAC_CYL_3", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 15.9375, "mul": 6.25, "div": 100, "unit": "degrees" }, "name": "Idle spark advance control, cylinder 3"},
     {"id": "4RUNNER_IDLE_SAC_CYL_4", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 15.9375, "mul": 6.25, "div": 100, "unit": "degrees" }, "name": "Idle spark advance control, cylinder 4"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "107B"}, "freq": 5, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "107B"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_EOT_700", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1084"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1084"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_ROUGH_IDLE_CYL_1", "path": "Engine", "fmt": {           "len": 8, "max": 255, "unit": "degrees" }, "name": "Rough idle, cylinder 1"},
     {"id": "4RUNNER_ROUGH_IDLE_CYL_2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "degrees" }, "name": "Rough idle, cylinder 2"},
     {"id": "4RUNNER_ROUGH_IDLE_CYL_3", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "degrees" }, "name": "Rough idle, cylinder 3"},
     {"id": "4RUNNER_ROUGH_IDLE_CYL_4", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "degrees" }, "name": "Rough idle, cylinder 4"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1087"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1087"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_INTAKE_VVT_CHANGE_ANGLE_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 639.9, "mul": 639.9, "div": 65535, "unit": "degrees" }, "name": "Intake VVT change angle, bank 1"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1088"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1088"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_EXHAUST_VVT_ANGLE_B1", "path": "Engine", "fmt": { "len": 16, "max": 639.9, "mul": 639.9, "div": 65535, "unit": "degrees" }, "name": "Exhaust VVT change angle, bank 1"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1089"}, "freq": 3600, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1089"}, "freq": 3600, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_EXHAUST_VVT_HOLD_LEARN_B1", "path": "Engine", "fmt": { "len": 16, "max": 399.9, "mul": 399.9, "div": 65535, "unit": "percent" }, "name": "Exhaust VVT hold learn value, bank 1"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "108D"}, "freq": 3600, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "108D"}, "freq": 3600, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_INTAKE_VVT_OVER_RET_LEARN_B1", "path": "Engine", "fmt": { "len": 16, "max": 639.99, "mul": 639.99, "div": 65535, "unit": "degrees" }, "name": "Intake VVT most over-retarded learn value, bank 1"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "108F"}, "freq": 3600, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "108F"}, "freq": 3600, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_EXHAUST_VVT_OVER_ADV_LEARN_B1", "path": "Engine", "fmt": { "len": 16, "max": 639.99, "mul": 639.99, "div": 65535, "unit": "degrees" }, "name": "Exhaust VVT timing most over-advanced learn value, bank 1"}
   ]},
@@ -132,7 +132,7 @@
   "signals": [
     {"id": "4RUNNER_FFT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel filter temperature"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "10A2"}, "freq": 3600, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10A2"}, "freq": 3600, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_AF_LEARN_IDLE_PORT_B1", "path": "Engine", "fmt": {           "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value idle, bank 1"},
     {"id": "4RUNNER_AF_LEARN_LOW_PORT_B1",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value low, bank 1"},
@@ -140,24 +140,24 @@
     {"id": "4RUNNER_AF_LEARN_MID2_PORT_B1", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value mid.2, bank 1"},
     {"id": "4RUNNER_AF_LEARN_HIGH_PORT_B1", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 50, "min": -50, "mul": 100, "div": 255, "add": -50, "unit": "percent" }, "name": "A/F ratio learn value high, bank 1"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "10A5"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10A5"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_MISFIRE_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, all cylinders"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "10A7"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10A7"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_MISFIRE_CYL1", "path": "Engine", "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, cylinder 1"},
     {"id": "4RUNNER_MISFIRE_CYL2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, cylinder 2"},
     {"id": "4RUNNER_MISFIRE_CYL3", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, cylinder 3"},
     {"id": "4RUNNER_MISFIRE_CYL4", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, cylinder 4"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "10AA"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10AA"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_MISFIRE_LOAD",   "path": "Engine", "fmt": {           "len": 8, "max": 510,               "mul": 510,  "div": 255,              "unit": "percent" }, "name": "Misfire load"},
     {"id": "4RUNNER_MISFIRE_RPM",    "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 6375,              "mul": 6375, "div": 255,              "unit": "rpm"     }, "name": "Misfire RPM"},
     {"id": "4RUNNER_MISFIRE_MARGIN", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 127,  "min": -128,                          "add": -128, "unit": "rpm"     }, "name": "Misfire margin"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "10CD"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10CD"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_LFP", "path": "Fuel", "fmt": { "len": 16, "max": 3276.7, "div": 10, "add": -3276.8, "unit": "kilopascal" }, "name": "Low fuel pressure"}
   ]},
@@ -205,15 +205,15 @@
   "signals": [
     {"id": "4RUNNER_BAT_T_700", "path": "Battery", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "15FA"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "15FA"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_ALT_DUTY_CYCLE", "path": "Engine", "fmt": { "len": 16, "max": 399, "div": 164, "unit": "percent" }, "name": "Alternator output duty cycle"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1620"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1620"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_AT_LOCK_UP_STATE", "path": "Transmission", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Lock up state"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1621"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1621"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_GEAR_700", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
@@ -221,7 +221,7 @@
   "signals": [
     {"id": "4RUNNER_TRANS_SHIFT_ST_RAT", "path": "Transmission", "fmt": { "len": 16, "max": 15.999, "mul": 5333, "div": 21845000, "unit": "scalar" }, "name": "Transmission shift state ratio"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1627"}, "freq": 5, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1627"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_ATF_T_PAN_V3", "path": "Transmission", "fmt": { "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, pan var.3", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -237,7 +237,7 @@
   "signals": [
     {"id": "4RUNNER_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F3C"}, "freq": 5, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F3C"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_CAT_T_11", "path": "Engine.Catalyst", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature, bank 1 sensor 1"}
   ]},
@@ -245,7 +245,7 @@
   "signals": [
     {"id": "4RUNNER_CAT_T_BANK_2_SENS_1", "path": "Engine", "fmt": { "len": 16, "max": 11756.3, "min": -40, "mul": 9, "div": 50, "add": -40, "unit": "fahrenheit" }, "name": "Catalyst temperature bank 2 sensor 1"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F3E"}, "freq": 5, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F3E"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_CAT_T_12", "path": "Engine.Catalyst", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature, bank 1 sensor 2"}
   ]},
@@ -253,21 +253,21 @@
   "signals": [
     {"id": "4RUNNER_CAT_T_BANK_2_SENS_2", "path": "Engine", "fmt": { "len": 16, "max": 11756.3, "min": -40, "mul": 9, "div": 50, "add": -40, "unit": "fahrenheit" }, "name": "Catalyst temperature bank 2 sensor 2"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F46"}, "freq": 5, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F46"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_AMBIENT_T", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F5C"}, "freq": 5, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F5C"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_EOT_V2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variation 2", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F6D"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F6D"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_HFP_TARGET",        "path": "Fuel", "fmt": {"bix": 8,  "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "High fuel pressure, target"},
     {"id": "4RUNNER_HFP_ACTUAL",        "path": "Fuel", "fmt": {"bix": 24, "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "High fuel pressure, actual"},
     {"id": "4RUNNER_LOW_FUEL_PRESSURE", "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "Low fuel pressure"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F77"}, "freq": 5, "filter": { "from": 2025 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F77"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_IAT_B1S1", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature, bank 1 sensor 1"},
     {"id": "4RUNNER_IAT_B1S2", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature, bank 1 sensor 2"}
@@ -309,7 +309,7 @@
     {"id": "4RUNNER_ENG_FUEL_RATE", "path": "Fuel", "fmt": {           "len": 16, "max": 1310.7, "div": 50, "unit": "gramsPerSecond" }, "name": "Engine fuel rate"},
     {"id": "4RUNNER_VEH_FUEL_RATE", "path": "Fuel", "fmt": {"bix": 16, "len": 16, "max": 1310.7, "div": 50, "unit": "gramsPerSecond" }, "name": "Vehicle fuel rate"}
   ]},
-{ "hdr": "701", "rax": "709", "dbg": true, "cmd": {"22": "0103"}, "freq": 30, "filter": { "from": 2025 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "0103"}, "freq": 30, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_ODO_V5", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -325,11 +325,11 @@
   "signals": [
     {"id": "4RUNNER_NO_SPD", "path": "Movement", "fmt": { "len": 16, "max": 10000, "unit": "rpm" }, "name": "NO speed"}
   ]},
-{ "hdr": "701", "rax": "709", "dbg": true, "cmd": {"22": "161A"}, "freq": 0.25, "filter": { "from": 2025 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "161A"}, "freq": 0.25, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_NT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 10000, "unit": "rpm" }, "name": "NT speed"}
   ]},
-{ "hdr": "701", "rax": "709", "dbg": true, "cmd": {"22": "1620"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1620"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_LOCK_UP_STATE", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Lock up state"}
   ]},
@@ -337,7 +337,7 @@
   "signals": [
     {"id": "4RUNNER_TRANS_SHIFT_ST_RAT_701", "path": "Transmission", "fmt": { "len": 16, "max": 15.999, "mul": 5333, "div": 21845000, "unit": "scalar" }, "name": "Transmission shift state ratio"}
   ]},
-{ "hdr": "701", "rax": "709", "dbg": true, "cmd": {"22": "1627"}, "freq": 5, "filter": { "from": 2025 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1627"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_TF1_PAN", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission fluid pan temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -345,7 +345,7 @@
   "signals": [
     {"id": "4RUNNER_TF2_CONV", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission fluid post-converter temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "701", "rax": "709", "dbg": true, "cmd": {"22": "162B"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "162B"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "4RUNNER_ATF_THERMAL_DEGRAD_EST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Automatic transmission fluid thermal degradation estimate"}
   ]},
@@ -377,7 +377,7 @@
     {"id": "4RUNNER_TP_RR",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 3.896, "div": 58, "add": -0.5, "nullmin": 0, "nullmax": 3.896, "unit": "bars" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
     {"id": "4RUNNER_TP_SPARE", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 3.896, "div": 58, "add": -0.5, "nullmin": 0, "nullmax": 3.896, "unit": "bars" }, "name": "Spare tire pressure"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "dbg": true, "cmd": {"22": "1004"}, "freq": 15,
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1004"}, "freq": 15, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "4RUNNER_TT_1", "path": "Tires", "fmt": {           "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Front right tire temperature"},
     {"id": "4RUNNER_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Rear right tire temperature"},
@@ -385,7 +385,7 @@
     {"id": "4RUNNER_TT_4", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Rear left tire temperature"},
     {"id": "4RUNNER_TT_5", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Spare tire temperature"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "dbg": true, "cmd": {"22": "1005"}, "freq": 15,
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1005"}, "freq": 15, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "4RUNNER_TP_1", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
     {"id": "4RUNNER_TP_2", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
@@ -393,7 +393,7 @@
     {"id": "4RUNNER_TP_4", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
     {"id": "4RUNNER_TP_5", "path": "Tires", "fmt": {"bix": 72, "len": 8, "max": 56.121212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Spare tire pressure"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "dbg": true, "cmd": {"22": "2021"}, "freq": 86400,
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "2021"}, "freq": 86400, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "4RUNNER_TID_1", "path": "Tires", "name": "Tire 1 position", "fmt": {"len": 8, "map": {
           "1": { "description": "Front left",  "value": "FL" },
@@ -547,7 +547,7 @@
     {"id": "4RUNNER_ACCUMULATOR_OPEN",       "path": "Engine",      "fmt": {"bix": 16, "len": 1, "max": 1, "unit": "noyes" }, "name": "Accumulator open"},
     {"id": "4RUNNER_HV_COMM_OPEN",           "path": "Engine",      "fmt": {"bix": 17, "len": 1, "max": 1, "unit": "noyes" }, "name": "Hydraulic valve, communication open"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "dbg": true, "cmd": {"22": "1006"}, "freq": 5,
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"22": "1006"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "4RUNNER_MASTER_CYL_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 100, "min": -20, "add": -80, "unit": "celsius" }, "name": "Master cylinder sensor temperature"}
   ]},
@@ -596,11 +596,11 @@
   "signals": [
     {"id": "4RUNNER_REVERSE_BEEP", "path": "Seatbelts", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "onoff" }, "name": "Reverse beep"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "dbg": true, "cmd": {"22": "1021"}, "freq": 5,
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1021"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "4RUNNER_BATTERY_VOLTAGE_7C0", "path": "Electrical", "fmt": { "len": 8, "max": 20, "div": 10, "unit": "volts" }, "name": "B+ battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "dbg": true, "cmd": {"22": "1022"}, "freq": 30,
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1022"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "4RUNNER_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "nullmax": 655.35, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},

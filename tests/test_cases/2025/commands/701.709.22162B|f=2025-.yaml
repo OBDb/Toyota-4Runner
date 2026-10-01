@@ -1,0 +1,5 @@
+command_id: 701.709.22162B|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_ATF_THERMAL_DEGRAD_EST: 553
+  response: 7090562162B0229
