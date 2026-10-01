@@ -1,0 +1,11 @@
+command_id: 700.708.221F3E|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_CAT_T_12: 100.1
+  response: 70805621F3E0579
+- expected_values:
+    4RUNNER_CAT_T_12: 548.6
+  response: 70805621F3E16FE
+- expected_values:
+    4RUNNER_CAT_T_12: 626.1
+  response: 70805621F3E1A05

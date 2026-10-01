@@ -1,0 +1,11 @@
+command_id: 701.709.22161A|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_NT_SPD: 0
+  response: 7090562161A0000
+- expected_values:
+    4RUNNER_NT_SPD: 1279
+  response: 7090562161A04FF
+- expected_values:
+    4RUNNER_NT_SPD: 2021
+  response: 7090562161A07E5

@@ -1,0 +1,8 @@
+command_id: 700.708.22108F|f=2025-
+test_cases:
+- expected_values:
+    4RUNNER_EXHAUST_VVT_OVER_ADV_LEARN_B1: 98.06637
+  response: 7080562108F273A
+- expected_values:
+    4RUNNER_EXHAUST_VVT_OVER_ADV_LEARN_B1: 98.21285
+  response: 7080562108F2749
