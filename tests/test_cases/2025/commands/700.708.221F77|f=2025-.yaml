@@ -1,10 +1,10 @@
 command_id: 700.708.221F77|f=2025-
 test_cases:
 - expected_values:
-    4RUNNER_IAT_B1S1: 30
-    4RUNNER_IAT_B1S2: 35
+    4RUNNER_IAT_B1S1: 28
+    4RUNNER_IAT_B1S2: 28
   response: |-
-    7081008621F7703464B
+    7081008621F77034444
     7082100000000000000
 - expected_values:
     4RUNNER_IAT_B1S1: 32

@@ -23,8 +23,8 @@ test_cases:
 - expected_values:
     4RUNNER_MISFIRE_CNT: 0
   response: |-
-    70810086210A50000F2
-    7082100C90000000000
+    70810086210A50000F7
+    7082100790000000000
 - expected_values:
     4RUNNER_MISFIRE_CNT: 0
   response: |-
@@ -34,4 +34,4 @@ test_cases:
     4RUNNER_MISFIRE_CNT: 2
   response: |-
     70810086210A5020000
-    7082100DB0000000000
+    7082100D30000000000

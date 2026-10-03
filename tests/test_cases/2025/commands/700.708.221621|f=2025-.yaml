@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     4RUNNER_GEAR_700: 7
   response: '7080462162107'
+- expected_values:
+    4RUNNER_GEAR_700: 8
+  response: '7080462162108'

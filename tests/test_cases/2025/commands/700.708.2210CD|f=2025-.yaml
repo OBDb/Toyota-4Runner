@@ -1,14 +1,14 @@
 command_id: 700.708.2210CD|f=2025-
 test_cases:
 - expected_values:
-    4RUNNER_LFP: 391.9
-  response: 708056210CD8F4F
+    4RUNNER_LFP: 390
+  response: 708056210CD8F3C
 - expected_values:
-    4RUNNER_LFP: 408.8
-  response: 708056210CD8FF8
+    4RUNNER_LFP: 409.5
+  response: 708056210CD8FFF
 - expected_values:
-    4RUNNER_LFP: 411.2
-  response: 708056210CD9010
+    4RUNNER_LFP: 410.2
+  response: 708056210CD9006
 - expected_values:
     4RUNNER_LFP: 616.3
   response: 708056210CD9813

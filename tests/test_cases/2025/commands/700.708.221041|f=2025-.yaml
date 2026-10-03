@@ -1,9 +1,9 @@
 command_id: 700.708.221041|f=2025-
 test_cases:
 - expected_values:
-    4RUNNER_ECT_IGN: 42.5
-    4RUNNER_ECT_INIT: 56.875
-  response: 70805621041849B
+    4RUNNER_ECT_IGN: 28.125
+    4RUNNER_ECT_INIT: 26.875
+  response: 708056210416D6B
 - expected_values:
     4RUNNER_ECT_IGN: 78.75
     4RUNNER_ECT_INIT: 76.25
