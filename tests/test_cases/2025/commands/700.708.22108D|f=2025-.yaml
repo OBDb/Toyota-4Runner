@@ -1,6 +1,9 @@
 command_id: 700.708.22108D|f=2025-
 test_cases:
 - expected_values:
+    4RUNNER_INTAKE_VVT_OVER_RET_LEARN_B1: 29.84374
+  response: 7080562108D0BF0
+- expected_values:
     4RUNNER_INTAKE_VVT_OVER_RET_LEARN_B1: 30.06835
   response: 7080562108D0C07
 - expected_values:

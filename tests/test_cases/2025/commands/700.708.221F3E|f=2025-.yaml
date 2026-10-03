@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     4RUNNER_CAT_T_12: 626.1
   response: 70805621F3E1A05
+- expected_values:
+    4RUNNER_CAT_T_12: 678.5
+  response: 70805621F3E1C11

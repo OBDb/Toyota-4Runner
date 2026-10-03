@@ -8,13 +8,13 @@ test_cases:
   response: 70807621019025D8A5B
 - expected_values:
     4RUNNER_INJECTION: BOTH
-  response: 7080762101902898B54
+  response: 70807621019026D8000
+- expected_values:
+    4RUNNER_INJECTION: BOTH
+  response: 7080762101902738B54
 - expected_values:
     4RUNNER_INJECTION: BOTH
   response: 7080762101902898B96
-- expected_values:
-    4RUNNER_INJECTION: BOTH
-  response: 7080762101902B78000
 - expected_values:
     4RUNNER_INJECTION: BOTH
   response: 7080762101902FD8B54

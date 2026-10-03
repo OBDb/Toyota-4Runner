@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     4RUNNER_INTAKE_VVT_TARGET_ANGLE_B1: 49.93436
   response: 7080562106F13FA
+- expected_values:
+    4RUNNER_INTAKE_VVT_TARGET_ANGLE_B1: 49.99295
+  response: 7080562106F1400

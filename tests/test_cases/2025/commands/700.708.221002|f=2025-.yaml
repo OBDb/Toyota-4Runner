@@ -4,8 +4,8 @@ test_cases:
     4RUNNER_12V_V: 13.85739
   response: 708056210022C58
 - expected_values:
-    4RUNNER_12V_V: 14.03317
-  response: 708056210022CE8
+    4RUNNER_12V_V: 14.05758
+  response: 708056210022CFC
 - expected_values:
     4RUNNER_12V_V: 14.07223
   response: 708056210022D08

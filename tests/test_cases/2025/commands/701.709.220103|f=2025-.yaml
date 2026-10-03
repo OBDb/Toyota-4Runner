@@ -4,29 +4,5 @@ test_cases:
     4RUNNER_ODO_V5: 15765
   response: 7090762010302003D95
 - expected_values:
-    4RUNNER_ODO_V5: 15766
-  response: 7090762010302003D96
-- expected_values:
-    4RUNNER_ODO_V5: 15767
-  response: 7090762010302003D97
-- expected_values:
-    4RUNNER_ODO_V5: 15768
-  response: 7090762010302003D98
-- expected_values:
-    4RUNNER_ODO_V5: 15769
-  response: 7090762010302003D99
-- expected_values:
-    4RUNNER_ODO_V5: 15770
-  response: 7090762010302003D9A
-- expected_values:
-    4RUNNER_ODO_V5: 15771
-  response: 7090762010302003D9B
-- expected_values:
-    4RUNNER_ODO_V5: 15772
-  response: 7090762010302003D9C
-- expected_values:
-    4RUNNER_ODO_V5: 15773
-  response: 7090762010302003D9D
-- expected_values:
-    4RUNNER_ODO_V5: 15774
-  response: 7090762010302003D9E
+    4RUNNER_ODO_V5: 15781
+  response: 7090762010302003DA5

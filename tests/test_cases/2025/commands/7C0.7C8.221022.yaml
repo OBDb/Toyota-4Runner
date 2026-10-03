@@ -1,14 +1,14 @@
 command_id: 7C0.7C8.221022
 test_cases:
 - expected_values:
-    4RUNNER_FUEL_LEVEL: 15.73
-  response: 7C8056210220625
+    4RUNNER_FUEL_LEVEL: 13.55
+  response: 7C805621022054B
 - expected_values:
     4RUNNER_FUEL_LEVEL: 20.47
   response: 7C80562102207FF
 - expected_values:
-    4RUNNER_FUEL_LEVEL: 25.71
-  response: 7C8056210220A0B
+    4RUNNER_FUEL_LEVEL: 20.55
+  response: 7C8056210220807
 - expected_values:
     4RUNNER_FUEL_LEVEL: null
   response: 7C805621022FFFF
