@@ -1,11 +1,14 @@
 command_id: 700.708.221627|f=2025-
 test_cases:
 - expected_values:
-    4RUNNER_ATF_T_PAN_V3: 41.875
-  response: '7080562162751E0'
+    4RUNNER_ATF_T_PAN_V3: 27.5
+  response: '708056216274380'
 - expected_values:
-    4RUNNER_ATF_T_PAN_V3: 45
-  response: '708056216275500'
+    4RUNNER_ATF_T_PAN_V3: 30
+  response: '708056216274600'
+- expected_values:
+    4RUNNER_ATF_T_PAN_V3: 31.875
+  response: '7080562162747E0'
 - expected_values:
     4RUNNER_ATF_T_PAN_V3: 75
   response: '708056216277300'

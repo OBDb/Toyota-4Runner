@@ -1,26 +1,8 @@
 command_id: 700.708.221F46|f=2025-
 test_cases:
 - expected_values:
-    4RUNNER_AMBIENT_T: 33
-  response: 70804621F4649
-- expected_values:
-    4RUNNER_AMBIENT_T: 34
-  response: 70804621F464A
-- expected_values:
-    4RUNNER_AMBIENT_T: 35
-  response: 70804621F464B
-- expected_values:
-    4RUNNER_AMBIENT_T: 36
-  response: 70804621F464C
-- expected_values:
-    4RUNNER_AMBIENT_T: 37
-  response: 70804621F464D
-- expected_values:
-    4RUNNER_AMBIENT_T: 38
-  response: 70804621F464E
-- expected_values:
-    4RUNNER_AMBIENT_T: 40
-  response: 70804621F4650
+    4RUNNER_AMBIENT_T: 29
+  response: 70804621F4645
 - expected_values:
     4RUNNER_AMBIENT_T: 41
   response: 70804621F4651

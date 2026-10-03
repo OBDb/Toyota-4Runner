@@ -4,11 +4,11 @@ test_cases:
     4RUNNER_CAT_T_11: 156.1
   response: 70805621F3C07A9
 - expected_values:
-    4RUNNER_CAT_T_11: 318
-  response: 70805621F3C0DFC
+    4RUNNER_CAT_T_11: 676.7
+  response: 70805621F3C1BFF
 - expected_values:
-    4RUNNER_CAT_T_11: 601.2
-  response: 70805621F3C190C
+    4RUNNER_CAT_T_11: 677.6
+  response: 70805621F3C1C08
 - expected_values:
-    4RUNNER_CAT_T_11: 692.1
-  response: 70805621F3C1C99
+    4RUNNER_CAT_T_11: 739.2
+  response: 70805621F3C1E70

@@ -7,5 +7,5 @@ test_cases:
     4RUNNER_INJECTOR_PORT: 7.935
   response: 708056210181EFF
 - expected_values:
-    4RUNNER_INJECTOR_PORT: 9.383
-  response: 7080562101824A7
+    4RUNNER_INJECTOR_PORT: 11.991
+  response: 708056210182ED7
