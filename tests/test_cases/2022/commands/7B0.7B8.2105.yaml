@@ -1,0 +1,8 @@
+command_id: 7B0.7B8.2105
+test_cases:
+- expected_values:
+    4RUNNER_DECEL: 1.63976
+    4RUNNER_DECEL_2: -0.35647
+  response: |-
+    7B8100961058B7D08B6
+    7B82149216600000000
