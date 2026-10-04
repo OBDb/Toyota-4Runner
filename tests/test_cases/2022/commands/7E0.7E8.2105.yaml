@@ -6,3 +6,9 @@ test_cases:
   response: |-
     7E8100C61054CE90E7E
     7E8210E7E0686068600
+- expected_values:
+    4RUNNER_CAT_T_B1S1: 744.4
+    4RUNNER_CAT_T_B1S2: 630.2
+  response: |-
+    7E8100C61054D111EA4
+    7E8211EA41A2E1A2E00

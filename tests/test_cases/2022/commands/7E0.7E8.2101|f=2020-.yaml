@@ -1,6 +1,15 @@
 command_id: 7E0.7E8.2101|f=2020-
 test_cases:
 - expected_values:
+    4RUNNER_LOAD_V2: 26.66667
+    4RUNNER_MAF_V2: 10.76
+  response: |-
+    7E8101D610144002604
+    7E821344747627F1C58
+    7E8226702B5002F8229
+    7E8235230FFFFFFEDCD
+    7E824330A0000000000
+- expected_values:
     4RUNNER_LOAD_V2: 89.01961
     4RUNNER_MAF_V2: 59.79
   response: |-
