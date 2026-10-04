@@ -1,5 +1,8 @@
 command_id: 7C4.7CC.214B
 test_cases:
 - expected_values:
+    4RUNNER_EVAP_FIN_THERMISTOR: 4.25
+  response: 7CC03614B61
+- expected_values:
     4RUNNER_EVAP_FIN_THERMISTOR: 4.6
   response: 7CC03614B62

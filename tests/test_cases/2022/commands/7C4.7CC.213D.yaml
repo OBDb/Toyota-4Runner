@@ -1,5 +1,8 @@
 command_id: 7C4.7CC.213D
 test_cases:
 - expected_values:
+    4RUNNER_ADJUSTED_AMBIENT_T: 21.68
+  response: 7CC03613DA4
+- expected_values:
     4RUNNER_ADJUSTED_AMBIENT_T: 22.96
   response: 7CC03613DA8

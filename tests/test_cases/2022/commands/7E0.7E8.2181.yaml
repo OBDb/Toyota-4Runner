@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     4RUNNER_SPD_NT: 1800
   response: '7E80461812443'
+- expected_values:
+    4RUNNER_SPD_NT: 1850
+  response: '7E80461812565'
