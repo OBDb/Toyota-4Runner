@@ -18,5 +18,5 @@ test_cases:
   response: 7E806618274407D00
 - expected_values:
     4RUNNER_ATF_PAN_T: 79.375
-    4RUNNER_ATF_TQC_T: 81.875
-  response: 7E8066182776079E0
+    4RUNNER_ATF_TQC_T: 79.375
+  response: '7E806618277607760'
