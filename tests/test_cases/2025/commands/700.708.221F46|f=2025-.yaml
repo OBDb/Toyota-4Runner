@@ -1,8 +1,8 @@
 command_id: 700.708.221F46|f=2025-
 test_cases:
 - expected_values:
-    4RUNNER_AMBIENT_T: 29
-  response: 70804621F4645
+    4RUNNER_AMBIENT_T: 19
+  response: 70804621F463B
 - expected_values:
     4RUNNER_AMBIENT_T: 41
   response: 70804621F4651

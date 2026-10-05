@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     4RUNNER_BATTERY_VOLTAGE_7C0: 13.9
   response: 7C8046210218B
+- expected_values:
+    4RUNNER_BATTERY_VOLTAGE_7C0: 14.1
+  response: 7C8046210218D

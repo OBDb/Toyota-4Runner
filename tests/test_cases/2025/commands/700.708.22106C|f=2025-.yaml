@@ -1,8 +1,8 @@
 command_id: 700.708.22106C|f=2025-
 test_cases:
 - expected_values:
+    4RUNNER_DIST_SINCE_BAT_DISC: 23263
+  response: 7080562106C5ADF
+- expected_values:
     4RUNNER_DIST_SINCE_BAT_DISC: 24906
   response: 7080562106C614A
-- expected_values:
-    4RUNNER_DIST_SINCE_BAT_DISC: 24930
-  response: 7080562106C6162

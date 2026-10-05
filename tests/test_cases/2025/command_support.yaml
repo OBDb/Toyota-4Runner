@@ -72,8 +72,10 @@ supported_commands_by_ecu:
   - 7DF.0131
   - 7DF.0134
   - 7DF.0142
+  - 7DF.0143
   - 7DF.0144
   - 7DF.0146
+  - 7DF.0147
   - 7DF.014D
   - 7DF.014E
   - 7DF.015B
@@ -212,6 +214,7 @@ unsupported_commands_by_ecu:
   - 7E0.0104:LOAD_PCT
   - 7E0.0105:ECT
   - 7E0.0106:SHRTFT1
+  - 7E0.010C:RPM
   - 7E0.010D:VSS
   - 7E0.0110:MAF
   - 7E0.0111:TP
@@ -223,6 +226,7 @@ unsupported_commands_by_ecu:
   - 7E0.0131:CLR_DIST
   - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - 7E0.0142:VPWR
+  - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
   - 7E0.0146:AAT
   - 7E0.0147:TP_B
@@ -285,16 +289,21 @@ unsupported_commands_by_ecu:
   - 7E2.7EA.0104
   - 7E2.7EA.010D
   - 7E2.7EA.0111
+  - 7E2.7EA.011F
   - 7E2.7EA.0131
+  - 7E2.7EA.0142
   "7E5":
   - 7E5.7ED.0104
   - 7E5.7ED.0105
   - 7E5.7ED.010D
   - 7E5.7ED.0111
+  - 7E5.7ED.011F
   - 7E5.7ED.0131
+  - 7E5.7ED.0142
   "7E6":
   - 7E6.7EE.0104
   - 7E6.7EE.0105
   - 7E6.7EE.010D
   - 7E6.7EE.0111
+  - 7E6.7EE.011F
   - 7E6.7EE.0131

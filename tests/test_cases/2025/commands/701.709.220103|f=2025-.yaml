@@ -1,8 +1,8 @@
 command_id: 701.709.220103|f=2025-
 test_cases:
 - expected_values:
+    4RUNNER_ODO_V5: 14813
+  response: 70907620103020039DD
+- expected_values:
     4RUNNER_ODO_V5: 15765
   response: 7090762010302003D95
-- expected_values:
-    4RUNNER_ODO_V5: 15781
-  response: 7090762010302003DA5
