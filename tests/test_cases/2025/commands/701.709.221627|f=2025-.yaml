@@ -1,8 +1,8 @@
 command_id: 701.709.221627|f=2025-
 test_cases:
 - expected_values:
-    4RUNNER_TF1_PAN: 82.4
-  response: '709056216274400'
+    4RUNNER_TF1_PAN: 55.4
+  response: '709056216273500'
 - expected_values:
     4RUNNER_TF1_PAN: 168.8
   response: '709056216277400'
