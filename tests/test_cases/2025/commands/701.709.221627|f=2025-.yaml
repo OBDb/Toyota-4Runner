@@ -4,5 +4,5 @@ test_cases:
     4RUNNER_TF1_PAN: 55.4
   response: '709056216273500'
 - expected_values:
-    4RUNNER_TF1_PAN: 168.8
-  response: '709056216277400'
+    4RUNNER_TF1_PAN: 210.2
+  response: 709056216278B00
