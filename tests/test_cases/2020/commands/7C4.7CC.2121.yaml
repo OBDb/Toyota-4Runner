@@ -1,0 +1,26 @@
+command_id: 7C4.7CC.2121
+test_cases:
+- expected_values:
+    4RUNNER_CABIN_T: 29.5
+  response: 7CC03612190
+- expected_values:
+    4RUNNER_CABIN_T: 30
+  response: 7CC03612192
+- expected_values:
+    4RUNNER_CABIN_T: 30.25
+  response: 7CC03612193
+- expected_values:
+    4RUNNER_CABIN_T: 30.5
+  response: 7CC03612194
+- expected_values:
+    4RUNNER_CABIN_T: 30.75
+  response: 7CC03612195
+- expected_values:
+    4RUNNER_CABIN_T: 31
+  response: 7CC03612196
+- expected_values:
+    4RUNNER_CABIN_T: 31.5
+  response: 7CC03612198
+- expected_values:
+    4RUNNER_CABIN_T: 32.25
+  response: 7CC0361219B
