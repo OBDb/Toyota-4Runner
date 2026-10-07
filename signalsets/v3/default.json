@@ -618,7 +618,7 @@
   "signals": [
     {"id": "4RUNNER_EVAP_TARGET_T", "path": "Climate", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "scalar" }, "name": "Evaporator target temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "21"}, "freq": 5, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "21"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "4RUNNER_CABIN_T", "path": "Climate", "fmt": { "len": 8, "max": 57.25, "min": -6.5, "mul": 63.75, "div": 255, "add": -6.5, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
@@ -634,7 +634,7 @@
   "signals": [
     {"id": "4RUNNER_ECT", "path": "Engine", "fmt": { "len": 8, "max": 90.55, "min": 1.3, "mul": 89.25, "div": 255, "add": 1.3, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "29"}, "freq": 5,
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "29"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "4RUNNER_T_DRIVER", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Set temperature, driver side"}
   ]},
