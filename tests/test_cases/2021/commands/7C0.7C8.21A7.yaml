@@ -1,0 +1,7 @@
+command_id: 7C0.7C8.21A7
+test_cases:
+- expected_values:
+    4RUNNER_SEAT_BELT_BEEP_DRIVER: 0
+    4RUNNER_SEAT_BELT_BEEP_PASSENGER: 0
+    4RUNNER_SEAT_BELT_BEEP_REMINDER: 0
+  response: 7C80361A700

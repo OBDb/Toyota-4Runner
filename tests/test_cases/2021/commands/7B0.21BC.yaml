@@ -1,0 +1,5 @@
+command_id: 7B0.21BC
+test_cases:
+- expected_values:
+    4RUNNER_HAZARD_SWITCH_HISTORY: INCOMPLETE
+  response: 7B80461BC8440
