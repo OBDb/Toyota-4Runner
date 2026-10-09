@@ -1,0 +1,66 @@
+command_id: 750.758.2116|e=2A,fc=1,f=2020-
+test_cases:
+- expected_values:
+    4RUNNER_TT_FL: 24
+    4RUNNER_TT_FR: 24
+    4RUNNER_TT_RL: 33
+    4RUNNER_TT_RR: 37
+  response: |-
+    7582A10076116404049
+    7582A214D0000000000
+- expected_values:
+    4RUNNER_TT_FL: 24
+    4RUNNER_TT_FR: 24
+    4RUNNER_TT_RL: 34
+    4RUNNER_TT_RR: 37
+  response: |-
+    7582A1007611640404A
+    7582A214D0000000000
+- expected_values:
+    4RUNNER_TT_FL: 25
+    4RUNNER_TT_FR: 25
+    4RUNNER_TT_RL: 34
+    4RUNNER_TT_RR: 37
+  response: |-
+    7582A1007611641414A
+    7582A214D0000000000
+- expected_values:
+    4RUNNER_TT_FL: 25
+    4RUNNER_TT_FR: 25
+    4RUNNER_TT_RL: 35
+    4RUNNER_TT_RR: 37
+  response: |-
+    7582A1007611641414B
+    7582A214D0000000000
+- expected_values:
+    4RUNNER_TT_FL: 25
+    4RUNNER_TT_FR: 25
+    4RUNNER_TT_RL: 35
+    4RUNNER_TT_RR: 38
+  response: |-
+    7582A1007611641414B
+    7582A214E0000000000
+- expected_values:
+    4RUNNER_TT_FL: 31
+    4RUNNER_TT_FR: 32
+    4RUNNER_TT_RL: 34
+    4RUNNER_TT_RR: 35
+  response: |-
+    7582A1007611647484A
+    7582A214B0000000000
+- expected_values:
+    4RUNNER_TT_FL: 32
+    4RUNNER_TT_FR: 33
+    4RUNNER_TT_RL: 34
+    4RUNNER_TT_RR: 35
+  response: |-
+    7582A1007611648494A
+    7582A214B0000000000
+- expected_values:
+    4RUNNER_TT_FL: 33
+    4RUNNER_TT_FR: 34
+    4RUNNER_TT_RL: 33
+    4RUNNER_TT_RR: 35
+  response: |-
+    7582A10076116494A49
+    7582A214B0000000000
