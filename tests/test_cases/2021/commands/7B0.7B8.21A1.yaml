@@ -1,0 +1,5 @@
+command_id: 7B0.7B8.21A1
+test_cases:
+- expected_values:
+    4RUNNER_ZERO_POINT_OF_YAW_RATE: 0
+  response: 7B80361A180
