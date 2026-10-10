@@ -1,0 +1,5 @@
+command_id: 7C4.7CC.2121
+test_cases:
+- expected_values:
+    4RUNNER_CABIN_T: 23.25
+  response: 7CC03612177
