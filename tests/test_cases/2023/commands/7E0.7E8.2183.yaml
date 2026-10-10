@@ -1,0 +1,7 @@
+command_id: 7E0.7E8.2183
+test_cases:
+- expected_values:
+    4RUNNER_G_SENS_CALIBRATION: 0
+    4RUNNER_G_SENS_LEARNING: 0.00122
+    4RUNNER_TRANS_OIL_PRESS: 0
+  response: 7E8066183000001D5
