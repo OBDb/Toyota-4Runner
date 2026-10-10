@@ -7,5 +7,5 @@ test_cases:
     4RUNNER_SPD_NT: 1050
   response: '7E80461811539'
 - expected_values:
-    4RUNNER_SPD_NT: 1450
-  response: 7E80461811D0E
+    4RUNNER_SPD_NT: 1600
+  response: 7E8046181202A
