@@ -4,5 +4,5 @@ test_cases:
     4RUNNER_EGR_STEP_POSITION: 119
   response: '7E803614777'
 - expected_values:
-    4RUNNER_EGR_STEP_POSITION: 121
-  response: '7E803614779'
+    4RUNNER_EGR_STEP_POSITION: 197
+  response: 7E8036147C5
