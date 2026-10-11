@@ -3,8 +3,48 @@ test_cases:
 - expected_values:
     4RUNNER_AC_COMP: 0
     4RUNNER_FUEL_CUT: 0
+    4RUNNER_IDLE_CTRL: 0
+  response: 7E80561E6080001
+- expected_values:
+    4RUNNER_AC_COMP: 1
+    4RUNNER_FUEL_CUT: 0
+    4RUNNER_IDLE_CTRL: 0
+  response: 7E80561E6280001
+- expected_values:
+    4RUNNER_AC_COMP: 0
+    4RUNNER_FUEL_CUT: 0
+    4RUNNER_IDLE_CTRL: 1
+  response: 7E80561E6480001
+- expected_values:
+    4RUNNER_AC_COMP: 0
+    4RUNNER_FUEL_CUT: 0
+    4RUNNER_IDLE_CTRL: 1
+  response: 7E80561E6480201
+- expected_values:
+    4RUNNER_AC_COMP: 0
+    4RUNNER_FUEL_CUT: 0
+    4RUNNER_IDLE_CTRL: 1
+  response: 7E80561E64C0001
+- expected_values:
+    4RUNNER_AC_COMP: 0
+    4RUNNER_FUEL_CUT: 0
     4RUNNER_IDLE_CTRL: 1
   response: 7E80561E6580001
+- expected_values:
+    4RUNNER_AC_COMP: 1
+    4RUNNER_FUEL_CUT: 0
+    4RUNNER_IDLE_CTRL: 1
+  response: 7E80561E6680201
+- expected_values:
+    4RUNNER_AC_COMP: 1
+    4RUNNER_FUEL_CUT: 0
+    4RUNNER_IDLE_CTRL: 1
+  response: 7E80561E66C0001
+- expected_values:
+    4RUNNER_AC_COMP: 1
+    4RUNNER_FUEL_CUT: 0
+    4RUNNER_IDLE_CTRL: 1
+  response: 7E80561E66E0001
 - expected_values:
     4RUNNER_AC_COMP: 1
     4RUNNER_FUEL_CUT: 0

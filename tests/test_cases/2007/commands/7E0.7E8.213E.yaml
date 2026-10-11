@@ -4,11 +4,11 @@ test_cases:
     4RUNNER_CAT_T_B1S2_V2: 219.9
   response: 7E804613E0A27
 - expected_values:
-    4RUNNER_CAT_T_B1S2_V2: 220.1
-  response: 7E804613E0A29
+    4RUNNER_CAT_T_B1S2_V2: 574.3
+  response: 7E804613E17FF
 - expected_values:
-    4RUNNER_CAT_T_B1S2_V2: 220.4
-  response: 7E804613E0A2C
+    4RUNNER_CAT_T_B1S2_V2: 651.6
+  response: 7E804613E1B04
 - expected_values:
-    4RUNNER_CAT_T_B1S2_V2: 220.6
-  response: 7E804613E0A2E
+    4RUNNER_CAT_T_B1S2_V2: 730.1
+  response: 7E804613E1E15

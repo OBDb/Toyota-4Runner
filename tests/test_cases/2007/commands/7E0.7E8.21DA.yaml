@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     4RUNNER_GEAR_V2: 1
   response: 7E80461DA0104
+- expected_values:
+    4RUNNER_GEAR_V2: 2
+  response: 7E80461DA0204
+- expected_values:
+    4RUNNER_GEAR_V2: 3
+  response: 7E80461DA0304
+- expected_values:
+    4RUNNER_GEAR_V2: 4
+  response: 7E80461DA0404
+- expected_values:
+    4RUNNER_GEAR_V2: 5
+  response: 7E80461DA0504
+- expected_values:
+    4RUNNER_GEAR_V2: 85
+  response: 7E80461DA5506
