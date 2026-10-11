@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2147
+test_cases:
+- expected_values:
+    4RUNNER_EGR_STEP_POSITION: 119
+  response: '7E803614777'
+- expected_values:
+    4RUNNER_EGR_STEP_POSITION: 121
+  response: '7E803614779'

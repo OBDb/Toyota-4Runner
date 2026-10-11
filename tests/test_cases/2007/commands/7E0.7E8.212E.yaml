@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.212E
+test_cases:
+- expected_values:
+    4RUNNER_EVAP_PURGE_DUTY_7E0: 32.54902
+  response: 7E803612E53
+- expected_values:
+    4RUNNER_EVAP_PURGE_DUTY_7E0: 32.94118
+  response: 7E803612E54
+- expected_values:
+    4RUNNER_EVAP_PURGE_DUTY_7E0: 36.86275
+  response: 7E803612E5E
+- expected_values:
+    4RUNNER_EVAP_PURGE_DUTY_7E0: 41.56863
+  response: 7E803612E6A

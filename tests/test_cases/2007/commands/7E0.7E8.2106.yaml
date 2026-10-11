@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.2106
+test_cases:
+- expected_values:
+    4RUNNER_MIL: 0
+    4RUNNER_NUMBER_OF_EMISSION_DTC: 125
+  response: 7E80361067D
+- expected_values:
+    4RUNNER_MIL: 0
+    4RUNNER_NUMBER_OF_EMISSION_DTC: 127
+  response: 7E80361067F
+- expected_values:
+    4RUNNER_MIL: 1
+    4RUNNER_NUMBER_OF_EMISSION_DTC: 1
+  response: '7E803610681'
+- expected_values:
+    4RUNNER_MIL: 1
+    4RUNNER_NUMBER_OF_EMISSION_DTC: 6
+  response: '7E803610686'
