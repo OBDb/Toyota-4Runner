@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2131
+test_cases:
+- expected_values:
+    4RUNNER_VALVEMATIC_CURRENT: 71.57227
+  response: 7E80461311CA1

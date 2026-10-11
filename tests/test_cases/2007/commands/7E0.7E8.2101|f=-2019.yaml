@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2101|f=-2019
+test_cases:
+- expected_values:
+    4RUNNER_LOAD: 0
+  response: '7E806610100076500'

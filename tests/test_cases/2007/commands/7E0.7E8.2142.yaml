@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2142
+test_cases:
+- expected_values:
+    4RUNNER_BAT_CURRENT: -75.30518
+  response: 7E804614232E3
+- expected_values:
+    4RUNNER_BAT_CURRENT: -75.2327
+  response: 7E804614232F6

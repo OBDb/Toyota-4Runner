@@ -1,0 +1,12 @@
+command_id: 7E0.7E8.21E6
+test_cases:
+- expected_values:
+    4RUNNER_AC_COMP: 0
+    4RUNNER_FUEL_CUT: 0
+    4RUNNER_IDLE_CTRL: 1
+  response: 7E80561E6580001
+- expected_values:
+    4RUNNER_AC_COMP: 1
+    4RUNNER_FUEL_CUT: 0
+    4RUNNER_IDLE_CTRL: 1
+  response: 7E80561E6780001
