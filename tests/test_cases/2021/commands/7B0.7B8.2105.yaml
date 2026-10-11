@@ -19,6 +19,12 @@ test_cases:
     7B810096105747F054E
     7B82111FFC800000000
 - expected_values:
+    4RUNNER_DECEL: -1.35459
+    4RUNNER_DECEL_2: 0.49906
+  response: |-
+    7B81009610576830529
+    7B82100F8A000000000
+- expected_values:
     4RUNNER_DECEL: -0.64165
     4RUNNER_DECEL_2: -1.212
   response: |-
@@ -30,12 +36,6 @@ test_cases:
   response: |-
     7B8100961057C800307
     7B82100009D00000000
-- expected_values:
-    4RUNNER_DECEL: -0.35647
-    4RUNNER_DECEL_2: -0.78424
-  response: |-
-    7B8100961057D7A0269
-    7B8210001F000000000
 - expected_values:
     4RUNNER_DECEL: 0.07129
     4RUNNER_DECEL_2: 1.63976
