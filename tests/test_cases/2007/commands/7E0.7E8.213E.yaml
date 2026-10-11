@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.213E
 test_cases:
 - expected_values:
-    4RUNNER_CAT_T_B1S2_V2: 219.9
-  response: 7E804613E0A27
+    4RUNNER_CAT_T_B1S2_V2: 107.8
+  response: 7E804613E05C6
 - expected_values:
     4RUNNER_CAT_T_B1S2_V2: 574.3
   response: 7E804613E17FF
