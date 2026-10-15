@@ -951,22 +951,6 @@
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"21": "DA"}, "freq": 0.25,
   "signals": [
     {"id": "4RUNNER_TQ_CONV_TURBINE_WHL", "path": "Tires", "fmt": { "len": 8, "max": 6, "mul": 12750, "unit": "rpm" }, "name": "Torque converter turbine wheel speed"}
-  ]},
-{ "hdr": "812A", "proto": "14230", "tst": "F0", "dbg": true, "cmd": {"21": "16"}, "freq": 5, "filter": { "from": 2003, "to": 2009 },
-  "signals": [
-    {"id": "4RUNNER_TT_FL_KL",    "path": "Tires", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "nullmax": 215, "unit": "celsius" }, "name": "Tire temperature, front left",  "suggestedMetric": "frontLeftTireTemperature"},
-    {"id": "4RUNNER_TT_FR_KL",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "nullmax": 215, "unit": "celsius" }, "name": "Tire temperature, front right", "suggestedMetric": "frontRightTireTemperature"},
-    {"id": "4RUNNER_TT_RL_KL",    "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "nullmax": 215, "unit": "celsius" }, "name": "Tire temperature, rear left",   "suggestedMetric": "rearLeftTireTemperature"},
-    {"id": "4RUNNER_TT_RR_KL",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "nullmax": 215, "unit": "celsius" }, "name": "Tire temperature, rear right",  "suggestedMetric": "rearRightTireTemperature"},
-    {"id": "4RUNNER_TT_SPARE_KL", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "nullmax": 215, "unit": "celsius" }, "name": "Tire temperature, spare"}
-  ]},
-{ "hdr": "812A", "proto": "14230", "tst": "F0", "dbg": true, "cmd": {"21": "30"}, "freq": 5, "filter": { "from": 2003, "to": 2009 },
-  "signals": [
-    {"id": "4RUNNER_TP_FL_KL",    "path": "Tires", "fmt": {           "len": 8, "max": 535.5, "mul": 2.1, "nullmin": 0, "nullmax": 535.5, "unit": "kilopascal" }, "name": "Tire pressure, front left",  "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "4RUNNER_TP_FR_KL",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 535.5, "mul": 2.1, "nullmin": 0, "nullmax": 535.5, "unit": "kilopascal" }, "name": "Tire pressure, front right", "suggestedMetric": "frontRightTirePressure"},
-    {"id": "4RUNNER_TP_RL_KL",    "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 535.5, "mul": 2.1, "nullmin": 0, "nullmax": 535.5, "unit": "kilopascal" }, "name": "Tire pressure, rear left",   "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "4RUNNER_TP_RR_KL",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 535.5, "mul": 2.1, "nullmin": 0, "nullmax": 535.5, "unit": "kilopascal" }, "name": "Tire pressure, rear right",  "suggestedMetric": "rearRightTirePressure"},
-    {"id": "4RUNNER_TP_SPARE_KL", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 535.5, "mul": 2.1, "nullmin": 0, "nullmax": 535.5, "unit": "kilopascal" }, "name": "Tire pressure, spare"}
   ]}
 ]
 }
