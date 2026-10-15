@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     4RUNNER_ECT_7C0: 70
   response: 7C80361238C
+- expected_values:
+    4RUNNER_ECT_7C0: 88
+  response: 7C8036123B0
