@@ -10,8 +10,8 @@ test_cases:
     4RUNNER_FUEL_LEVEL: 20.55
   response: 7C8056210220807
 - expected_values:
-    4RUNNER_FUEL_LEVEL: 53.91
-  response: 7C805621022150F
+    4RUNNER_FUEL_LEVEL: 71.81
+  response: 7C8056210221C0D
 - expected_values:
     4RUNNER_FUEL_LEVEL: null
   response: 7C805621022FFFF
