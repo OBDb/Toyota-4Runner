@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.2181
 test_cases:
 - expected_values:
+    4RUNNER_SPD_NT: 250
+  response: '7E80461810500'
+- expected_values:
     4RUNNER_SPD_NT: 700
   response: 7E80461810E00
+- expected_values:
+    4RUNNER_SPD_NT: 1150
+  response: '7E80461811740'
