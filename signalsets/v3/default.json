@@ -952,7 +952,7 @@
   "signals": [
     {"id": "4RUNNER_TQ_CONV_TURBINE_WHL", "path": "Tires", "fmt": { "len": 8, "max": 6, "mul": 12750, "unit": "rpm" }, "name": "Torque converter turbine wheel speed"}
   ]},
-{ "hdr": "812A", "proto": "14230", "dbg": true, "cmd": {"21": "15"}, "freq": 2.5, "filter": { "from": 2003, "to": 2009 },
+{ "hdr": "812A", "proto": "14230", "dbg": true, "cmd": {"21": "15"}, "freq": 15, "filter": { "from": 2003, "to": 2009 },
   "signals": [
     {"id": "4RUNNER_TP_1_KL", "path": "Tires", "fmt": {           "len": 8, "max": 4.39875, "mul": 69, "div": 4000, "nullmin": 0, "unit": "bars" }, "name": "Tire pressure, sensor 1"},
     {"id": "4RUNNER_TP_2_KL", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 4.39875, "mul": 69, "div": 4000, "nullmin": 0, "unit": "bars" }, "name": "Tire pressure, sensor 2"},
@@ -960,7 +960,7 @@
     {"id": "4RUNNER_TP_4_KL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 4.39875, "mul": 69, "div": 4000, "nullmin": 0, "unit": "bars" }, "name": "Tire pressure, sensor 4"},
     {"id": "4RUNNER_TP_5_KL", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 4.39875, "mul": 69, "div": 4000, "nullmin": 0, "unit": "bars" }, "name": "Tire pressure, sensor 5"}
   ]},
-{ "hdr": "812A", "proto": "14230", "dbg": true, "cmd": {"21": "16"}, "freq": 2.5, "filter": { "from": 2003, "to": 2009 },
+{ "hdr": "812A", "proto": "14230", "dbg": true, "cmd": {"21": "16"}, "freq": 15, "filter": { "from": 2003, "to": 2009 },
   "signals": [
     {"id": "4RUNNER_TT_1_KL", "path": "Tires", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "nullmax": 215, "unit": "celsius" }, "name": "Tire temperature, sensor 1"},
     {"id": "4RUNNER_TT_2_KL", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "nullmax": 215, "unit": "celsius" }, "name": "Tire temperature, sensor 2"},
