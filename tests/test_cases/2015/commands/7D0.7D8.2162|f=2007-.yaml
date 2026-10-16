@@ -5,7 +5,7 @@ test_cases:
   response: 7D80461620100
 - expected_values:
     4RUNNER_PARKING_BRAKE: 0
-  response: 7D80461620181
+  response: 7D80461620197
 - expected_values:
     4RUNNER_PARKING_BRAKE: 0
   response: 7D80461621D00
