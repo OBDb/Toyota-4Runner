@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     4RUNNER_BLOWER_MOTOR_SPEED_LEVEL: 1
   response: 7CC03613C01
+- expected_values:
+    4RUNNER_BLOWER_MOTOR_SPEED_LEVEL: 17
+  response: 7CC03613C11
