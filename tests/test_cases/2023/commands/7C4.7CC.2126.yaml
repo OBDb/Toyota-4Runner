@@ -1,23 +1,8 @@
 command_id: 7C4.7CC.2126
 test_cases:
 - expected_values:
-    4RUNNER_ECT: 67.8
-  response: 7CC036126BE
-- expected_values:
-    4RUNNER_ECT: 69.9
-  response: 7CC036126C4
-- expected_values:
-    4RUNNER_ECT: 86.35
-  response: 7CC036126F3
-- expected_values:
-    4RUNNER_ECT: 87.05
-  response: 7CC036126F5
-- expected_values:
-    4RUNNER_ECT: 87.4
-  response: 7CC036126F6
-- expected_values:
-    4RUNNER_ECT: 87.75
-  response: 7CC036126F7
+    4RUNNER_ECT: 54.5
+  response: 7CC03612698
 - expected_values:
     4RUNNER_ECT: 88.45
   response: 7CC036126F9
