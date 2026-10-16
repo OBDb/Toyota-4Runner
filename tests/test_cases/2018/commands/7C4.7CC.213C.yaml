@@ -1,0 +1,5 @@
+command_id: 7C4.7CC.213C
+test_cases:
+- expected_values:
+    4RUNNER_BLOWER_MOTOR_SPEED_LEVEL: 0
+  response: 7CC03613C00
