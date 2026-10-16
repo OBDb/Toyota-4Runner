@@ -1,5 +1,32 @@
 command_id: 7C4.7CC.214B
 test_cases:
 - expected_values:
+    4RUNNER_EVAP_FIN_THERMISTOR: 8.1
+  response: 7CC03614B6C
+- expected_values:
+    4RUNNER_EVAP_FIN_THERMISTOR: 16.85
+  response: 7CC03614B85
+- expected_values:
+    4RUNNER_EVAP_FIN_THERMISTOR: 17.2
+  response: 7CC03614B86
+- expected_values:
+    4RUNNER_EVAP_FIN_THERMISTOR: 17.9
+  response: 7CC03614B88
+- expected_values:
+    4RUNNER_EVAP_FIN_THERMISTOR: 18.25
+  response: 7CC03614B89
+- expected_values:
+    4RUNNER_EVAP_FIN_THERMISTOR: 18.6
+  response: 7CC03614B8A
+- expected_values:
+    4RUNNER_EVAP_FIN_THERMISTOR: 18.95
+  response: 7CC03614B8B
+- expected_values:
+    4RUNNER_EVAP_FIN_THERMISTOR: 19.65
+  response: 7CC03614B8D
+- expected_values:
+    4RUNNER_EVAP_FIN_THERMISTOR: 20.35
+  response: 7CC03614B8F
+- expected_values:
     4RUNNER_EVAP_FIN_THERMISTOR: 20.7
   response: 7CC03614B90

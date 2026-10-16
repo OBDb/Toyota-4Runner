@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     4RUNNER_BAT_V: 14
   response: 7C80361138C
+- expected_values:
+    4RUNNER_BAT_V: 14.1
+  response: 7C80361138D

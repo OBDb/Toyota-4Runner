@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     4RUNNER_ECT: 33.15
   response: 7CC0361265B
+- expected_values:
+    4RUNNER_ECT: 39.1
+  response: 7CC0361266C
+- expected_values:
+    4RUNNER_ECT: 44
+  response: 7CC0361267A
+- expected_values:
+    4RUNNER_ECT: 48.9
+  response: 7CC03612688
+- expected_values:
+    4RUNNER_ECT: 58.35
+  response: 7CC036126A3
+- expected_values:
+    4RUNNER_ECT: 62.9
+  response: 7CC036126B0
+- expected_values:
+    4RUNNER_ECT: 69.9
+  response: 7CC036126C4
+- expected_values:
+    4RUNNER_ECT: 75.5
+  response: 7CC036126D4
+- expected_values:
+    4RUNNER_ECT: 80.05
+  response: 7CC036126E1
+- expected_values:
+    4RUNNER_ECT: 82.5
+  response: 7CC036126E8

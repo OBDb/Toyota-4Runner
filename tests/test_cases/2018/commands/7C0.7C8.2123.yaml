@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     4RUNNER_ECT_7C0: 33.5
   response: 7C803612343
+- expected_values:
+    4RUNNER_ECT_7C0: 39.5
+  response: 7C80361234F
+- expected_values:
+    4RUNNER_ECT_7C0: 45
+  response: 7C80361235A
+- expected_values:
+    4RUNNER_ECT_7C0: 49.5
+  response: 7C803612363
+- expected_values:
+    4RUNNER_ECT_7C0: 59
+  response: 7C803612376
+- expected_values:
+    4RUNNER_ECT_7C0: 63.5
+  response: 7C80361237F
+- expected_values:
+    4RUNNER_ECT_7C0: 70.5
+  response: 7C80361238D
+- expected_values:
+    4RUNNER_ECT_7C0: 76
+  response: 7C803612398
+- expected_values:
+    4RUNNER_ECT_7C0: 80
+  response: 7C8036123A0
+- expected_values:
+    4RUNNER_ECT_7C0: 83
+  response: 7C8036123A6
