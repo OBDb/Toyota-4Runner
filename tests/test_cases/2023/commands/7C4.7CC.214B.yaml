@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     4RUNNER_EVAP_FIN_THERMISTOR: 3.9
   response: 7CC03614B60
+- expected_values:
+    4RUNNER_EVAP_FIN_THERMISTOR: 4.6
+  response: 7CC03614B62
