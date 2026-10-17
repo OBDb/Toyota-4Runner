@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.2105
 test_cases:
 - expected_values:
+    4RUNNER_CAT_T_B1S1: 684.4
+    4RUNNER_CAT_T_B1S2: 573.4
+  response: |-
+    7E8100C610542641C4C
+    7E8211C4C17F617F600
+- expected_values:
     4RUNNER_CAT_T_B1S1: 753.4
     4RUNNER_CAT_T_B1S2: 623
   response: |-
