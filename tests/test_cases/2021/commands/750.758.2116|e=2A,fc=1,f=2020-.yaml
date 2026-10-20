@@ -21,19 +21,18 @@ test_cases:
     7582A1007611600004D
     7582A21000000000000
 - expected_values:
+    4RUNNER_TT_FR: 23
+    4RUNNER_TT_RR: 24
+  response: |-
+    7582A10076116003F00
+    7582A21400000000000
+- expected_values:
     4RUNNER_TT_FR: 39
     4RUNNER_TT_RL: 36
     4RUNNER_TT_RR: 44
   response: |-
     7582A10076116004F4C
     7582A21540000000000
-- expected_values:
-    4RUNNER_TT_FL: 4
-    4RUNNER_TT_FR: 4
-    4RUNNER_TT_RR: 4
-  response: |-
-    7582A100761162C2C00
-    7582A212C0000000000
 - expected_values:
     4RUNNER_TT_FL: 7
     4RUNNER_TT_FR: 7
