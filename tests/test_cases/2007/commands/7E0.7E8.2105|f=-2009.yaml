@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2105|f=-2009
+test_cases:
+- expected_values:
+    4RUNNER_N210_ECT: 83
+  response: 7E80361057B
+- expected_values:
+    4RUNNER_N210_ECT: 84
+  response: 7E80361057C
+- expected_values:
+    4RUNNER_N210_ECT: 85
+  response: 7E80361057D
+- expected_values:
+    4RUNNER_N210_ECT: 86
+  response: 7E80361057E

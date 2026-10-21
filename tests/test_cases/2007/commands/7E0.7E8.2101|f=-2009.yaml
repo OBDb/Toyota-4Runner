@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.2101|f=-2009
+test_cases:
+- expected_values:
+    4RUNNER_N210_DTC_COUNT: 0
+    4RUNNER_N210_MIL: 0
+  response: '7E806610100076500'

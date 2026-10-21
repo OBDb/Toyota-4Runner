@@ -658,7 +658,12 @@
   "signals": [
     {"id": "4RUNNER_PARKING_BRAKE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2014] },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2009 }, "dbgfilter": { "to": 2006, "years": [2008] },
+  "signals": [
+    {"id": "4RUNNER_N210_MIL",       "path": "DTCs", "fmt": {          "len": 1, "max": 1,   "unit": "offon"  }, "name": "MIL"},
+    {"id": "4RUNNER_N210_DTC_COUNT", "path": "DTCs", "fmt": {"bix": 1, "len": 7, "max": 127, "unit": "scalar" }, "name": "Number of emission DTCs"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "filter": { "from": 2010, "to": 2019 }, "dbgfilter": { "years": [2011, 2012, 2014] },
   "signals": [
     {"id": "4RUNNER_LOAD",    "path": "Engine",   "fmt": {           "len": 8,  "max": 100,                  "mul": 100, "div": 255,             "unit": "percent"           }, "name": "Calculated load",            "suggestedMetric": "engineLoad"},
     {"id": "4RUNNER_MAF",     "path": "Engine",   "fmt": {"bix": 24, "len": 16, "max": 655.35,                           "div": 100,             "unit": "gramsPerSecond"    }, "name": "Mass air flow",              "suggestedMetric": "massAirFlow"},
@@ -673,7 +678,26 @@
     {"id": "4RUNNER_LOAD_V2", "path": "Engine", "fmt": {           "len": 8,  "max": 100,    "mul": 100, "div": 255, "unit": "percent"        }, "name": "Calculated load", "suggestedMetric": "engineLoad"},
     {"id": "4RUNNER_MAF_V2",  "path": "Engine", "fmt": {"bix": 24, "len": 16, "max": 655.35,             "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow",   "suggestedMetric": "massAirFlow"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2014, 2019], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "03"}, "freq": 1, "filter": { "to": 2009 }, "dbgfilter": { "to": 2006, "years": [2008] },
+  "signals": [
+    {"id": "4RUNNER_N210_FUEL_SYS1", "path": "Fuel", "name": "Fuel system 1 status", "fmt": {"len": 8, "map": {
+          "1":  { "description": "Open loop, engine cold",            "value": "OpenLoopCold" },
+          "2":  { "description": "Closed loop",                       "value": "ClosedLoop" },
+          "4":  { "description": "Open loop, load or decel fuel cut", "value": "OpenLoopLoad" },
+          "8":  { "description": "Open loop, system fault",           "value": "OpenLoopFault" },
+          "16": { "description": "Closed loop with a feedback fault", "value": "ClosedLoopFault" }
+        }}
+    },
+    {"id": "4RUNNER_N210_FUEL_SYS2", "path": "Fuel", "name": "Fuel system 2 status", "fmt": {"bix": 8, "len": 8, "map": {
+          "1":  { "description": "Open loop, engine cold",            "value": "OpenLoopCold" },
+          "2":  { "description": "Closed loop",                       "value": "ClosedLoop" },
+          "4":  { "description": "Open loop, load or decel fuel cut", "value": "OpenLoopLoad" },
+          "8":  { "description": "Open loop, system fault",           "value": "OpenLoopFault" },
+          "16": { "description": "Closed loop with a feedback fault", "value": "ClosedLoopFault" }
+        }}
+    }
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "03"}, "freq": 1, "filter": { "from": 2010 }, "dbgfilter": { "years": [2011, 2012, 2014, 2019], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_SHORT_FT_B1", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 99.21, "min": -100, "mul": 200, "div": 256, "add": -100, "unit": "percent" }, "name": "Short term fuel trim, bank 1", "suggestedMetric": "shortTermFuelTrim"},
     {"id": "4RUNNER_LONG_FT_B1",  "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 99.21, "min": -100, "mul": 200, "div": 256, "add": -100, "unit": "percent" }, "name": "Long term fuel trim, bank 1"},
@@ -681,7 +705,11 @@
     {"id": "4RUNNER_LONG_FT_B2",  "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 99.21, "min": -100, "mul": 200, "div": 256, "add": -100, "unit": "percent" }, "name": "Long term fuel trim, bank 2"},
     {"id": "4RUNNER_IGN_ADVANCE", "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 63.5,  "min": -64,              "div": 2,   "add": -64,  "unit": "degrees" }, "name": "Ignition timing advance"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2014, 2019], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "filter": { "to": 2009 }, "dbgfilter": { "to": 2006, "years": [2008] },
+  "signals": [
+    {"id": "4RUNNER_N210_LOAD", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Calculated engine load"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "filter": { "from": 2010 }, "dbgfilter": { "years": [2011, 2012, 2014, 2019], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_LAMBDA_TARGET",  "path": "Fuel",   "fmt": {            "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Target air-fuel equivalence ratio"},
     {"id": "4RUNNER_AF_LAMBDA_B1S1", "path": "Engine", "fmt": {"bix": 16,  "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Air-fuel equivalence ratio, bank 1 sensor 1", "suggestedMetric": "o2Lambda"},
@@ -689,12 +717,20 @@
     {"id": "4RUNNER_AFS_I_B1S1",     "path": "Engine", "fmt": {"bix": 96,  "len": 16, "max": 127.99, "min": -128,              "div": 256,   "add": -128, "unit": "milliamps" }, "name": "Air-fuel sensor current, bank 1 sensor 1"},
     {"id": "4RUNNER_O2S_B1S2",       "path": "Engine", "fmt": {"bix": 144, "len": 8,  "max": 1.275,               "mul": 5,    "div": 1000,               "unit": "volts"     }, "name": "Oxygen sensor voltage, bank 1 sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "05"}, "freq": 5, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2014, 2019], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "05"}, "freq": 5, "filter": { "to": 2009 }, "dbgfilter": { "to": 2006, "years": [2008] },
+  "signals": [
+    {"id": "4RUNNER_N210_ECT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "05"}, "freq": 5, "filter": { "from": 2010 }, "dbgfilter": { "years": [2011, 2012, 2014, 2019], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_CAT_T_B1S1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature, bank 1 sensor 1"},
     {"id": "4RUNNER_CAT_T_B1S2", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature, bank 1 sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2014, 2019], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "filter": { "to": 2009 }, "dbgfilter": { "to": 2006, "years": [2008] },
+  "signals": [
+    {"id": "4RUNNER_N210_STFT_B1", "path": "Fuel", "fmt": { "len": 8, "max": 99.22, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Short term fuel trim, bank 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "filter": { "from": 2010 }, "dbgfilter": { "years": [2011, 2012, 2014, 2019], "from": 2024 },
   "signals": [
     {"id": "4RUNNER_MIL",                            "path": "DTCs", "fmt": {           "len": 1,  "max": 1,     "unit": "offon"      }, "name": "MIL"},
     {"id": "4RUNNER_NUMBER_OF_EMISSION_DTC",         "path": "DTCs", "fmt": {"bix": 1,  "len": 7,  "max": 127,   "unit": "scalar"     }, "name": "Number of emission DTC"},
@@ -720,11 +756,20 @@
     {"id": "4RUNNER_MILON_RUN_DISTANCE",             "path": "DTCs", "fmt": {"bix": 48, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "MIL ON run distance"},
     {"id": "4RUNNER_RUNNING_TIME_FROM_MIL_ON",       "path": "DTCs", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "minutes"    }, "name": "Running time from MIL ON"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2004, "years": [2008, 2009, 2010] },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "filter": { "to": 2009 }, "dbgfilter": { "to": 2004, "years": [2008] },
+  "signals": [
+    {"id": "4RUNNER_N210_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled with MIL on"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "21"}, "freq": 1, "filter": { "from": 2010, "to": 2018 },
   "signals": [
     {"id": "4RUNNER_CC_S", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "24"}, "freq": 5, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2014], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "24"}, "freq": 5, "filter": { "to": 2009 }, "dbgfilter": { "to": 2006, "years": [2008] },
+  "signals": [
+    {"id": "4RUNNER_N210_O2S1_LAMBDA", "path": "Engine", "fmt": {           "len": 16, "max": 2, "mul": 2, "div": 65536, "unit": "scalar" }, "name": "Oxygen sensor 1 equivalence ratio"},
+    {"id": "4RUNNER_N210_O2S1_V",      "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 8, "mul": 8, "div": 65536, "unit": "volts"  }, "name": "Oxygen sensor 1 voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "24"}, "freq": 5, "filter": { "from": 2010 }, "dbgfilter": { "years": [2011, 2012, 2014], "from": 2019 },
   "signals": [
     {"id": "4RUNNER_COMMUNICATION_WITH_HV",     "path": "Climate", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon"  }, "name": "Communication with HV"},
     {"id": "4RUNNER_COMMUNICATION_WITH_BRAKE",  "path": "Control", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon"  }, "name": "Communication with brake"},

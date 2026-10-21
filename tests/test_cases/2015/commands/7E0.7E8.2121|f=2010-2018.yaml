@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2121|f=2010-2018
+test_cases:
+- expected_values:
+    4RUNNER_CC_S: 0
+  response: '7E80761210000000000'
+- expected_values:
+    4RUNNER_CC_S: 0
+  response: 7E807612100000000E0
+- expected_values:
+    4RUNNER_CC_S: 40
+  response: 7E8076121282807FC00
+- expected_values:
+    4RUNNER_CC_S: 115
+  response: 7E8076121727376FC00
+- expected_values:
+    4RUNNER_CC_S: 132
+  response: 7E8076121808434FC00
+- expected_values:
+    4RUNNER_CC_S: 126
+  response: 7E8076121967E00BC00

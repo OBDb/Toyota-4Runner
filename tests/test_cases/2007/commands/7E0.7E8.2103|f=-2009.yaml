@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2103|f=-2009
+test_cases:
+- expected_values:
+    4RUNNER_N210_FUEL_SYS1: ClosedLoop
+    4RUNNER_N210_FUEL_SYS2: OpenLoopCold
+  response: '7E80461030201'
+- expected_values:
+    4RUNNER_N210_FUEL_SYS1: ClosedLoop
+    4RUNNER_N210_FUEL_SYS2: ClosedLoop
+  response: '7E80461030202'
+- expected_values:
+    4RUNNER_N210_FUEL_SYS1: OpenLoopLoad
+    4RUNNER_N210_FUEL_SYS2: OpenLoopLoad
+  response: '7E80461030404'

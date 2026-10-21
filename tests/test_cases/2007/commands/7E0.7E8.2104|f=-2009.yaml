@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2104|f=-2009
+test_cases:
+- expected_values:
+    4RUNNER_N210_LOAD: 27.45098
+  response: '7E803610446'
+- expected_values:
+    4RUNNER_N210_LOAD: 92.94118
+  response: 7E8036104ED
