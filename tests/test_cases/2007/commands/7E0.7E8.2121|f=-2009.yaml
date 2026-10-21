@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2121|f=-2009
+test_cases:
+- expected_values:
+    4RUNNER_N210_MIL_DIST: 0
+  response: '7E80461210000'
