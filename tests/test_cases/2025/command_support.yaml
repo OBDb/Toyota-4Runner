@@ -151,6 +151,8 @@ supported_commands_by_ecu:
   - 7E2.7EA.0105
   - 7E2.7EA.0131
   - 7E2.7EA.015B
+  "7E6":
+  - 7E6.7EE.0111
 unsupported_commands_by_ecu:
   "700":
   - 700.708.221043|f=2025-:4RUNNER_EWP_RPM,4RUNNER_EWP_TARGET_VSS
@@ -335,6 +337,5 @@ unsupported_commands_by_ecu:
   - 7E6.7EE.0104
   - 7E6.7EE.0105
   - 7E6.7EE.010D
-  - 7E6.7EE.0111
   - 7E6.7EE.011F
   - 7E6.7EE.0131
