@@ -119,6 +119,7 @@ supported_commands_by_ecu:
   - 7E1.7E9.010D
   "7E2":
   - 7E2.7EA.0105
+  - 7E2.7EA.0131
   - 7E2.7EA.015B
 unsupported_commands_by_ecu:
   "700":
@@ -291,7 +292,6 @@ unsupported_commands_by_ecu:
   - 7E2.7EA.010D
   - 7E2.7EA.0111
   - 7E2.7EA.011F
-  - 7E2.7EA.0131
   - 7E2.7EA.0142
   "7E5":
   - 7E5.7ED.0104
