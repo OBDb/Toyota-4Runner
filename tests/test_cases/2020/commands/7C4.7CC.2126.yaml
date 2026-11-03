@@ -4,5 +4,5 @@ test_cases:
     4RUNNER_ECT: 28.95
   response: 7CC0361264F
 - expected_values:
-    4RUNNER_ECT: 87.75
-  response: 7CC036126F7
+    4RUNNER_ECT: 88.8
+  response: 7CC036126FA
