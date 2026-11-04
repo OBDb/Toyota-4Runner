@@ -1,6 +1,16 @@
 command_id: 750.758.221005|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
+    4RUNNER_TP_1: null
+    4RUNNER_TP_2: null
+    4RUNNER_TP_3: null
+    4RUNNER_TP_4: null
+    4RUNNER_TP_5: null
+  response: |-
+    7582A100D6210050000
+    7582A21000000000000
+    7582A22000000000000
+- expected_values:
     4RUNNER_TP_5: 29.93939
   response: |-
     7582A100D6210050000
