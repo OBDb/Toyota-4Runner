@@ -5,9 +5,9 @@ test_cases:
     VFUEL_RATE: 0
   response: 7E806419D00000000
 - expected_values:
-    FUEL_RATE_ALT: 3.46
-    VFUEL_RATE: 3.46
-  response: 7E806419D00AD00AD
+    FUEL_RATE_ALT: 4.18
+    VFUEL_RATE: 4.18
+  response: 7E806419D00D100D1
 - expected_values:
     FUEL_RATE_ALT: 10.66
     VFUEL_RATE: 10.66
