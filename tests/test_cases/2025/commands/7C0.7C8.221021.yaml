@@ -1,7 +1,7 @@
 command_id: 7C0.7C8.221021
 test_cases:
 - expected_values:
-    4RUNNER_BATTERY_VOLTAGE_7C0: 0
+    4RUNNER_BATTERY_VOLTAGE_7C0: null
   response: 7C80462102100
 - expected_values:
     4RUNNER_BATTERY_VOLTAGE_7C0: 13.7
