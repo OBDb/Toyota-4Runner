@@ -1,8 +1,10 @@
 command_id: 700.708.220103|f=2025-
 test_cases:
 - expected_values:
-    4RUNNER_ENG_ODO: 14813
+    4RUNNER_ENG_ODO_RAW: 14813
+    4RUNNER_ENG_ODO_UNIT: MI
   response: 70807620103020039DD
 - expected_values:
-    4RUNNER_ENG_ODO: 15765
+    4RUNNER_ENG_ODO_RAW: 15765
+    4RUNNER_ENG_ODO_UNIT: MI
   response: 7080762010302003D95
