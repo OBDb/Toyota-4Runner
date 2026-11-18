@@ -1,21 +1,21 @@
 command_id: 7E0.7E8.2182|f=2007-
 test_cases:
 - expected_values:
+    4RUNNER_ATF_PAN_T: 15
+    4RUNNER_ATF_TQC_T: 18.75
+  response: 7E806618237003AC0
+- expected_values:
     4RUNNER_ATF_PAN_T: 18.125
     4RUNNER_ATF_TQC_T: 21.875
   response: 7E80661823A203DE0
-- expected_values:
-    4RUNNER_ATF_PAN_T: 20
-    4RUNNER_ATF_TQC_T: 22.5
-  response: 7E80661823C003E80
 - expected_values:
     4RUNNER_ATF_PAN_T: 21.875
     4RUNNER_ATF_TQC_T: 26.25
   response: 7E80661823DE04240
 - expected_values:
-    4RUNNER_ATF_PAN_T: 24.375
+    4RUNNER_ATF_PAN_T: 23.125
     4RUNNER_ATF_TQC_T: 30
-  response: '7E806618240604600'
+  response: 7E80661823F204600
 - expected_values:
     4RUNNER_ATF_PAN_T: 90
     4RUNNER_ATF_TQC_T: 100
