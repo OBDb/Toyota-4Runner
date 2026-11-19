@@ -4,3 +4,7 @@ test_cases:
     4RUNNER_N210_DTC_COUNT: 0
     4RUNNER_N210_MIL: 0
   response: '7E806610100076500'
+- expected_values:
+    4RUNNER_N210_DTC_COUNT: 0
+    4RUNNER_N210_MIL: 0
+  response: '7E806610100076565'
