@@ -26,10 +26,10 @@ test_cases:
   response: 7B80761470000807F00
 - expected_values:
     4RUNNER_LAT_G: 0
-    4RUNNER_LNG_G: 0.02
-    4RUNNER_STEER_ANGLE: -538.6
-    4RUNNER_YAW_RATE: -5
-  response: 7B807614700017B6AF6
+    4RUNNER_LNG_G: 0
+    4RUNNER_STEER_ANGLE: -539.1
+    4RUNNER_YAW_RATE: 7
+  response: 7B80761470000876AF1
 - expected_values:
     4RUNNER_LAT_G: 0
     4RUNNER_LNG_G: -0.02
